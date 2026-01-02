@@ -125,7 +125,15 @@ Responsible for communication between devices on the same network using **Ethern
 * Payload (46–1500 bytes)
 * Frame Check Sequence (CRC) — detects corruption (does not repair)
 
+**Ethernet Frame Structure**
+***An Ethernet frame is a structured collection of data that travels across a network link.***  
+***Each part of the frame has a specific purpose, from synchronization to addressing and error detection.***
+
+![Ethernet Frame](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-01-Ethernet-Frame.png)
+
+
 ---
+
 
 
 
