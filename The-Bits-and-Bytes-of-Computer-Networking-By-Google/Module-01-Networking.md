@@ -17,6 +17,12 @@ Networking is understood through layered models where each layer provides a spec
 |       2 | Data Link                       | ↔         | Data Link (L2)          | Frames       |
 |       1 | Physical                        | ↔         | Physical (L1)           | Bits         |
 
+***The diagram below shows the practical TCP/IP five-layer model.***  
+***Each layer has specific protocols, data units, and addressing methods.***
+
+![TCP/IP Five Layer Model](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-01-TCP-IP-five-layer-model.png)
+
+
 **Key Concept:** A protocol is the “language” or set of rules computers use to communicate at each layer.
 
 ---
@@ -120,5 +126,6 @@ Responsible for communication between devices on the same network using **Ethern
 * Frame Check Sequence (CRC) — detects corruption (does not repair)
 
 ---
+
 
 
