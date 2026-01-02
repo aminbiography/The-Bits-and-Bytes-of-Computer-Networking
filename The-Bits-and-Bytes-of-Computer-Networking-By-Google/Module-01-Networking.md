@@ -1,10 +1,10 @@
 # Networking Models
 
-## 01. The Networking Models
+## The Networking Models
 
 Networking is understood through layered models where each layer provides a specific service to the one above it.
 
-**Five-Layer Model:** Physical, Data Link, Network, Transport, and Application
+**Five-Layer Model:** Physical, Data Link, Network, Transport, and Application  
 **OSI Model:** Seven layers (adds Session and Presentation between Transport and Application)
 
 | Layer # | TCP/IP Model (Practical)        | Maps To → | OSI Model (Theoretical) | Unit of Data |
@@ -22,12 +22,11 @@ Networking is understood through layered models where each layer provides a spec
 
 ![TCP/IP Five Layer Model](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-01-TCP-IP-five-layer-model.png)
 
-
 **Key Concept:** A protocol is the “language” or set of rules computers use to communicate at each layer.
 
 ---
 
-## 02. The Physical Layer (Layer 1)
+## The Physical Layer (Layer 1)
 
 Focuses on moving **bits (1s and 0s)** across hardware.
 
@@ -51,15 +50,13 @@ Focuses on moving **bits (1s and 0s)** across hardware.
 
 ---
 
-## 03. The Data Link Layer (Layer 2)
+## The Data Link Layer (Layer 2)
 
 Responsible for communication between devices on the same network using **Ethernet**.
 
 * **MAC Address:** 48-bit unique hardware ID (e.g., `00:1A:2B:3C:4D:5E`)
-
   * OUI (first 3 octets) identifies the manufacturer
 * **Ethernet Frame:** structured data package
-
   * CRC/FCS detects data corruption
 
 ### Communication Types
@@ -70,7 +67,18 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 04. Duplex Communication
+## The Network Layer (Layer 3)
+
+Responsible for moving data **between different networks** (not just within a single LAN). This layer uses logical addressing and routing so traffic can travel across routers and reach remote destinations (such as Internet servers).
+
+* **Internet Protocol (IP):** primary protocol at this layer
+* **Packets/Datagrams:** the data unit at this layer
+* **IP Addressing:** identifies source and destination hosts across networks
+* **Routers:** forward packets between networks based on routing decisions
+
+---
+
+## Duplex Communication
 
 * **Full-Duplex:** both directions at once
 * **Half-Duplex:** one direction at a time
@@ -78,7 +86,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 05. Networking Hardware
+## Networking Hardware
 
 * **Hub (Layer 1):** sends data to all devices (large collision domain; rarely used)
 * **Switch (Layer 2):** forwards data only to intended recipient (uses MAC)
@@ -88,7 +96,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 06. Clients and Servers
+## Clients and Servers
 
 * **Server:** provides data or services
 * **Client:** requests data
@@ -96,7 +104,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 07. Cabling Tools
+## Cabling Tools
 
 * Crimper — attach connectors
 * Cable stripper — remove insulation
@@ -109,7 +117,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 08. Transmission Types
+## Transmission Types
 
 * **Unicast:** one device to one device
 * **Multicast:** targeted group
@@ -117,7 +125,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 ---
 
-## 09. Ethernet Frames
+## Ethernet Frames
 
 * Preamble + SFD — synchronization
 * Destination MAC + Source MAC
@@ -132,10 +140,4 @@ Responsible for communication between devices on the same network using **Ethern
 
 ![Ethernet Frame](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-01-Ethernet-Frame.png)
 
-
 ---
-
-
-
-
-
