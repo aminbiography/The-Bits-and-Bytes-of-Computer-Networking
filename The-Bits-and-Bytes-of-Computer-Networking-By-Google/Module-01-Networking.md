@@ -126,6 +126,7 @@ Responsible for communication between devices on the same network using **Ethern
 * Frame Check Sequence (CRC) — detects corruption (does not repair)
 
 **Ethernet Frame Structure**
+
 ***An Ethernet frame is a structured collection of data that travels across a network link.***  
 ***Each part of the frame has a specific purpose, from synchronization to addressing and error detection.***
 
@@ -133,6 +134,7 @@ Responsible for communication between devices on the same network using **Ethern
 
 
 ---
+
 
 
 
