@@ -1,4 +1,3 @@
-
 ## Computer Networking Overview
 
 Computer networking enables devices to communicate and exchange data across local and global networks.  
@@ -108,7 +107,7 @@ It consists of a header (control information) and a payload (actual data).
 
 ### IP Datagram Header Fields
 
-![IP Datagram Header](./Graph-Bar-Chart-Images/M-02-01-Source-and-Destination-IP-Address-fields.jpg)
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-02-01-Source-and-Destination-IP-Address-fields.jpg)
 
 Key fields include:
 - Version
@@ -144,7 +143,7 @@ Fragmentation occurs when an IP datagram exceeds the Maximum Transmission Unit (
 
 Encapsulation is the process of wrapping data with protocol headers as it moves down the network stack.
 
-![Encapsulation Process](./Graph-Bar-Chart-Images/M-02-02-IP-Datagram.jpg)
+![Encapsulation Process](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-02-02-IP-Datagram.jpg)
 
 Flow:
 - Application message
@@ -234,5 +233,6 @@ These fundamentals are essential for IT support, networking, cybersecurity, and 
 ```
 
 ---
+
 
 
