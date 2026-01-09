@@ -83,8 +83,6 @@ CIDR allows flexible network sizing and reduces routing table size.
 - **Class D** – Multicast traffic
 - **Class E** – Experimental use
 
-These classes are largely obsolete but still important for foundational understanding.
-
 ---
 
 ## Binary Math & Logic
@@ -218,6 +216,7 @@ These addresses are used internally and are not routed on the public Internet.
 NAT allows private IP addresses to communicate with the Internet by translating them into public IP addresses.
 
 ---
+
 
 
 
