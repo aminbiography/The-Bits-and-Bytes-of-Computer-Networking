@@ -4,7 +4,7 @@ Live URL:  https://aminbiography.github.io/The-Bits-and-Bytes-of-Computer-Networ
  
 MIT License
  
-Copyright (c) 2025 Mohammad Aminul Islam
+Copyright (c) 2025 Mohammad Aminul Islam 
 
 This “The Bits and Bytes of Computer Networking” certificate is part of the Google IT Support Professional Certificate program on Coursera.
 (Personal Short Notes and Certifications Repository)
