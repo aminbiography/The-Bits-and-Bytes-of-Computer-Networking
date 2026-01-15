@@ -70,9 +70,9 @@ Routers act as the middlemen that bridge different networks.
 
 ![Phase 3 - Packet Leaving Computer 1](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-10-Packet-Leaving-Computer%201.jpg)
 
-![Phase 3 - Packet Leaving Computer 1](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
+![Phase 3 - Packet-Arrives-at-Router-A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
 
-![Phase 3 - Router A Processing IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
+![Phase 3 - TTL-Decrement-Checksum-Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
 
 ![Phase 3 - TTL Decrement / Checksum Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-TTL-Decrement-Checksum-Update.jpg)
 
@@ -96,11 +96,11 @@ Routers act as the middlemen that bridge different networks.
 
 ![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16a-Router-B-Builds-Ethernet-Frame-to-Computer-2.jpg)
 
-![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
+![Router-A-Forwarding-to-Router-B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
 
 ![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17a-Packet-Delivered-to-Computer-2.jpg)
 
-![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
+![Phase 4 - Router-B-Receives-IP-TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
 
 ![Phase 4 - TCP Segment Checksum Verified](M-03-18a-TCP-Segment-Checksum-Verified.jpg)
 ![Phase 4 - TCP Segment Checksum Verified](M-03-18b-TCP-Segment-Checksum-Verified.jpg)
