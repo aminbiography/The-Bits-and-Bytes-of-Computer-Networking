@@ -20,10 +20,13 @@ When the user enters an IP into a browser, the OS networking stack performs a lo
 
 ### Images (Phase 1)
 
-![Phase 1 - Topology / Target](M-03-01-Topology-Target.jpg)
-![Phase 1 - ARP Request Broadcast](M-03-02-ARP-Request-Broadcast.jpg)
-![Phase 1 - ARP Reply / MAC Learned](M-03-03-ARP-Reply-MAC-Learned.jpg)
-![Phase 1 - Connection Starting](M-03-04-Connection-Starting.jpg)
+![Phase 1 - Topology / Target](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-01-Topology-Target.jpg)
+
+![Phase 1 - ARP Request Broadcast](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-02-ARP-Request-Broadcast.jpg)
+
+![Phase 1 - ARP Reply / MAC Learned](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-03-ARP-Reply-MAC-Learned.jpg)
+
+![Phase 1 - Connection Starting](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-04-Connection-Starting.jpg)
 
 ---
 
