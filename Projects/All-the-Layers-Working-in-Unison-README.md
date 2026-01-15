@@ -122,7 +122,7 @@ Routers act as the middlemen that bridge different networks.
 
 ## Professional Troubleshooting Insight
 
-This scenario highlights why pinging is so useful. If user ping Computer 2 from Computer 1, you know that Layers 1-3 (Physical, Data Link, and Network) and all the routing hops in between are functional.
+This scenario highlights why pinging is so useful. If user ping Computer 2 from Computer 1, user know that Layers 1-3 (Physical, Data Link, and Network) and all the routing hops in between are functional.
 
 If the web page still will not load, user can focus specifically to Layer 4 (Port 80 blocked by a firewall) or Layer 7 (The Apache service is crashed).
 
