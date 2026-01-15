@@ -42,11 +42,15 @@ Before the data hits the wire, it is wrapped in headers at each layer of the sta
 
 ### Images (Phase 2)
 
-![Phase 2 - TCP Datagram](M-03-05-TCP-Datagram.jpg)
-![Phase 2 - IP Datagram](M-03-06-IP-Datagram.jpg)
-![Phase 2 - Encapsulation (IP + TCP)](M-03-07-Encapsulation-IP-TCP.jpg)
-![Phase 2 - Ethernet Datagram](M-03-08-Ethernet-Datagram.jpg)
-![Phase 2 - Ethernet + IP + TCP Ready](M-03-09-Ethernet-IP-TCP-Ready.jpg)
+![Phase 2 - TCP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-05-TCP-Datagram.jpg)
+
+![Phase 2 - IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-06-IP-Datagram.jpg)
+
+![Phase 2 - Encapsulation (IP + TCP)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-07-Encapsulation-IP-TCP.jpg)
+
+![Phase 2 - Ethernet Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-08-Ethernet-Datagram.jpg)
+
+![Phase 2 - Ethernet + IP + TCP Ready](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-09-Ethernet-IP-TCP-Ready.jpg)
 
 ---
 
