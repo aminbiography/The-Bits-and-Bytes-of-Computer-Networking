@@ -102,14 +102,21 @@ Routers act as the middlemen that bridge different networks.
 
 ![Phase 4 - Router-B-Receives-IP-TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
 
-![Phase 4 - TCP Segment Checksum Verified](M-03-18a-TCP-Segment-Checksum-Verified.jpg)
-![Phase 4 - TCP Segment Checksum Verified](M-03-18b-TCP-Segment-Checksum-Verified.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-19a-TCP-Sequence-Number-Recorded.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-19b-TCP-Sequence-Number-Recorded.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-20-Router-B-to-Computer-2-Delivery.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-21-TCP-Checksum-Validation.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-22-TCP-Sequence-Number-Tracking.jpg)
-![Phase 4 - TCP Sequence Number Recorded](M-03-23-TCP-SYN-Arrives-at-Server.jpg)
+![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18a-TCP-Segment-Checksum-Verified.jpg)
+
+![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
+
+![Phase 4 - TCP Sequence Number Recorded](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19a-TCP-Sequence-Number-Recorded.jpg)
+
+![Phase 4 - Ethernet-Frame-to-Computer-2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19b-Ethernet-Frame-to-Computer-2.jpg)
+
+![Phase 4 - Router-B-to-Computer-2-Delivery](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-B-to-Computer-2-Delivery.jpg)
+
+![Phase 4 - TCP-Checksum-Validation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-TCP-Checksum-Validation.jpg)
+
+![Phase 4 - TCP-Sequence-Number-Tracking](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-TCP-Sequence-Number-Tracking.jpg)
+
+![Phase 4 - TTCP-SYN-Arrives-at-Serve](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-TCP-SYN-Arrives-at-Server.jpg)
 
 ---
 
