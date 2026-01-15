@@ -70,13 +70,13 @@ Routers act as the middlemen that bridge different networks.
 
 ![Phase 3 - Packet Leaving Computer 1](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-10-Packet-Leaving-Computer%201.jpg)
 
-![Phase 3 - Packet-Arrives-at-Router-A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
+![Phase 3 - Packet Arrives at Router A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
 
-![Phase 3 - TTL-Decrement-Checksum-Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
+![Phase 3 - Router A Processing IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
 
-![Phase 3 - TTL Decrement / Checksum Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-TTL-Decrement-Checksum-Update.jpg)
+![Phase 3 - TTL Decrement and Checksum Update (Step 2)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-TTL-Decrement-Checksum-Update.jpg)
 
-![Phase 3 - TTL Decrement / Checksum Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-14-TTL-Decrement-Checksum%20Update.jpg)
+![Phase 3 - TTL Decrement and Checksum Update (Step 3)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-14-TTL-Decrement-Checksum%20Update.jpg)
 
 ![Phase 3 - New Ethernet Frame to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-15-New-Ethernet-Frame-to-Router-B.jpg)
 
@@ -96,35 +96,35 @@ Routers act as the middlemen that bridge different networks.
 
 ![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16a-Router-B-Builds-Ethernet-Frame-to-Computer-2.jpg)
 
-![Router-A-Forwarding-to-Router-B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
+![Phase 4 - Router A Forwarding to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
 
 ![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17a-Packet-Delivered-to-Computer-2.jpg)
 
-![Phase 4 - Router-B-Receives-IP-TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
+![Phase 4 - Router B Receives IP/TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
 
 ![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18a-TCP-Segment-Checksum-Verified.jpg)
 
-![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
+![Phase 4 - IP Destination Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
 
 ![Phase 4 - TCP Sequence Number Recorded](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19a-TCP-Sequence-Number-Recorded.jpg)
 
-![Phase 4 - Ethernet-Frame-to-Computer-2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19b-Ethernet-Frame-to-Computer-2.jpg)
+![Phase 4 - Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19b-Ethernet-Frame-to-Computer-2.jpg)
 
-![Phase 4 - Router-B-to-Computer-2-Delivery](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-B-to-Computer-2-Delivery.jpg)
+![Phase 4 - Router B to Computer 2 Delivery](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-B-to-Computer-2-Delivery.jpg)
 
-![Phase 4 - TCP-Checksum-Validation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-TCP-Checksum-Validation.jpg)
+![Phase 4 - TCP Checksum Validation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-TCP-Checksum-Validation.jpg)
 
-![Phase 4 - TCP-Sequence-Number-Tracking](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-TCP-Sequence-Number-Tracking.jpg)
+![Phase 4 - TCP Sequence Number Tracking](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-TCP-Sequence-Number-Tracking.jpg)
 
-![Phase 4 - TTCP-SYN-Arrives-at-Serve](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-TCP-SYN-Arrives-at-Server.jpg)
+![Phase 4 - TCP SYN Arrives at Server](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-TCP-SYN-Arrives-at-Server.jpg)
 
 ---
 
 ## Professional Troubleshooting Insight
 
-This scenario highlights why pinging is so useful. If user ping Computer 2 from Computer 1, user know that Layers 1-3 (Physical, Data Link, and Network) and all the routing hops in between are functional.
+This scenario highlights why pinging is so useful. If you can ping Computer 2 from Computer 1, you know that Layers 1-3 (Physical, Data Link, and Network) and all the routing hops in between are functional.
 
-If the web page still will not load, user can focus specifically to Layer 4 (Port 80 blocked by a firewall) or Layer 7 (The Apache service is crashed).
+If the web page still will not load, you can focus specifically on Layer 4 (Port 80 blocked by a firewall) or Layer 7 (The Apache service is crashed).
 
 ---
 
@@ -203,4 +203,3 @@ If the web page still will not load, user can focus specifically to Layer 4 (Por
 **Example:** SYN travels to Computer 2, then SYN/ACK travels back to Computer 1, then ACK travels again to Computer 2.
 
 ---
-
