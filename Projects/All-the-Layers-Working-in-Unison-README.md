@@ -68,13 +68,17 @@ Routers act as the middlemen that bridge different networks.
 
 ### Images (Phase 3)
 
-![Phase 3 - Packet Leaving Computer 1](M-03-10-Packet-Leaving-Computer 1.jpg)
-![Phase 3 - Packet Arrives at Router A](assets/frame-12.jpg)
-![Phase 3 - Router A Processing IP Datagram](M-03-11-Packet-Arrives-at-Router-A.jpg)
-![Phase 3 - TTL Decrement / Checksum Update](M-03-12-TTL-Decrement-Checksum-Update.jpg)
-![Phase 3 - TTL Decrement / Checksum Update](M-03-13-TTL-Decrement-Checksum-Update.jpg)
-![Phase 3 - TTL Decrement / Checksum Update](M-03-14-TTL-Decrement-Checksum-Update.jpg)
-![Phase 3 - New Ethernet Frame to Router B](M-03-15-New-Ethernet-Frame-to-Router-B.jpg)
+![Phase 3 - Packet Leaving Computer 1](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-10-Packet-Leaving-Computer%201.jpg)
+
+![Phase 3 - Packet Arrives at Router A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
+
+![Phase 3 - Router A Processing IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
+
+![Phase 3 - TTL Decrement / Checksum Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-TTL-Decrement-Checksum-Update.jpg)
+
+![Phase 3 - TTL Decrement / Checksum Update](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-14-TTL-Decrement-Checksum%20Update.jpg)
+
+![Phase 3 - New Ethernet Frame to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-15-New-Ethernet-Frame-to-Router-B.jpg)
 
 ---
 
