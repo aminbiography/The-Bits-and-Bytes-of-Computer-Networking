@@ -16,7 +16,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ## Phase 1: The Local Decision (Computer 1)
 
-When the user enters an IP into a browser, the OS networking stack performs a logical comparison.
+**When the user enters an IP into a browser, the OS networking stack performs a logical comparison.**
 
 **Subnet Check:** Computer 1 compares its IP (10.1.1.100) and subnet (/24) to the destination (172.16.1.100). Since they do not match, it realizes the packet must go to the Default Gateway (10.1.1.1).
 
@@ -38,7 +38,7 @@ When the user enters an IP into a browser, the OS networking stack performs a lo
 
 ## Phase 2: Encapsulation (Layer by Layer)
 
-Before the data hits the wire, it is wrapped in headers at each layer of the stack:
+**Before the data hits the wire, it is wrapped in headers at each layer of the stack:**
 
 **Transport (TCP):** A segment is created with Source Port 50,000, Destination Port 80, and the SYN flag set.
 
@@ -62,7 +62,7 @@ Before the data hits the wire, it is wrapped in headers at each layer of the sta
 
 ## Phase 3: Routing and the Hop (Router A to Router B)
 
-Routers act as the middlemen that bridge different networks.
+**Routers act as the middlemen that bridge different networks.**
 
 **De-encapsulation:** Router A receives the frame, verifies the checksum, and strips the Ethernet header to look at the IP datagram.
 
@@ -138,73 +138,73 @@ If the web page still will not load, you can focus specifically on Layer 4 (Port
 
 ### Default gateway routing
 
-If the destination IP is outside the local subnet, the computer sends traffic to its default gateway for routing to other networks.
+**If the destination IP is outside the local subnet, the computer sends traffic to its default gateway for routing to other networks.**
 
 **Example:** Computer 1 sees 172.16.1.100 is not in 10.1.1.0/24, so it forwards the packet to gateway 10.1.1.1.
 
 ### ARP (Address Resolution Protocol)
 
-ARP maps a local IP address to a MAC address so Ethernet frames can be delivered on the local network.
+**ARP maps a local IP address to a MAC address so Ethernet frames can be delivered on the local network.**
 
 **Example:** Computer 1 broadcasts an ARP request for 10.1.1.1 and Router A replies with MAC 00:11:22:33:44:55.
 
 ### Ephemeral port + socket (client side)
 
-The OS selects a temporary high-numbered port (ephemeral port) and opens a socket so the client application can establish a TCP connection.
+**The OS selects a temporary high-numbered port (ephemeral port) and opens a socket so the client application can establish a TCP connection.**
 
 **Example:** Computer 1 selects ephemeral port 50,000 and opens a socket for the web browser.
 
 ### TCP SYN segment (connection start)
 
-TCP begins a connection by sending a SYN segment with source/destination ports, sequence number, and checksum.
+**TCP begins a connection by sending a SYN segment with source/destination ports, sequence number, and checksum.**
 
 **Example:** Computer 1 sends TCP SYN from port 50,000 to destination port 80.
 
 ### IP datagram creation (Network layer encapsulation)
 
-The IP layer wraps the TCP segment inside an IP header containing source IP, destination IP, and TTL.
+**The IP layer wraps the TCP segment inside an IP header containing source IP, destination IP, and TTL.**
 
 **Example:** IP header includes source 10.1.1.100, destination 172.16.1.100, TTL 64.
 
 ### Ethernet frame creation (Data Link encapsulation)
 
-Ethernet wraps the IP datagram into a frame using source and destination MAC addresses for delivery on the local link.
+**Ethernet wraps the IP datagram into a frame using source and destination MAC addresses for delivery on the local link.**
 
 **Example:** Destination MAC is Router A’s MAC 00:11:22:33:44:55 so the frame reaches the gateway.
 
 ### Switch forwarding (Layer 2 delivery)
 
-A switch forwards frames based on the destination MAC address to the correct port.
+**A switch forwards frames based on the destination MAC address to the correct port.**
 
 **Example:** The switch sends the frame only to the interface connected to Router A.
 
 ### Router processing (decapsulation + routing decision)
 
-Routers remove the Ethernet frame, inspect the IP header, validate checksums, and forward the packet toward the destination network.
+**Routers remove the Ethernet frame, inspect the IP header, validate checksums, and forward the packet toward the destination network.**
 
 **Example:** Router A strips Ethernet, checks IP, and routes toward 172.16.1.0/24 via Router B (192.168.1.1).
 
 ### TTL decrement + checksum update
 
-Each router reduces the IP TTL by 1 and recalculates the IP header checksum before forwarding.
+**Each router reduces the IP TTL by 1 and recalculates the IP header checksum before forwarding.**
 
 **Example:** Router A decrements TTL (64 → 63), Router B decrements again (63 → 62).
 
 ### Re-encapsulation at each hop
 
-Every time a packet crosses into a new network segment, it is placed into a new Ethernet frame with new source/destination MAC addresses.
+**Every time a packet crosses into a new network segment, it is placed into a new Ethernet frame with new source/destination MAC addresses.**
 
 **Example:** Router A builds a new frame on Network B to Router B; Router B builds a new frame on Network C to Computer 2.
 
 ### Server port listening (destination socket)
 
-The server delivers TCP traffic to the correct application by checking if a socket is listening on the destination port.
+**The server delivers TCP traffic to the correct application by checking if a socket is listening on the destination port.**
 
 **Example:** Computer 2 receives destination port 80 and confirms Apache is listening in the LISTEN state.
 
 ### TCP connection handshake repetition across the path
 
-Every step of encapsulation, switching, routing, and checksum validation happens again for SYN/ACK and ACK packets during the handshake.
+**Every step of encapsulation, switching, routing, and checksum validation happens again for SYN/ACK and ACK packets during the handshake.**
 
 **Example:** SYN travels to Computer 2, then SYN/ACK travels back to Computer 1, then ACK travels again to Computer 2.
 
