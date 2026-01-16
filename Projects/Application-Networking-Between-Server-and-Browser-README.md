@@ -2,7 +2,7 @@
 
 ---
 
-### ### This presentation is based on "All the Layers Working in Unison"
+### This presentation is based on "All the Layers Working in Unison"
 
 ---
 
@@ -128,9 +128,9 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ## Professional Troubleshooting Insight
 
-This scenario highlights why pinging is so useful. If you can ping Computer 2 from Computer 1, you know that Layers 1-3 (Physical, Data Link, and Network) and all the routing hops in between are functional.
+This scenario highlights why pinging is so useful. If **the user can ping Computer 2 from Computer 1**, it confirms that **Layers 1–3 (Physical, Data Link, and Network)** and all routing hops in between are functioning correctly.
 
-If the web page still will not load, you can focus specifically on Layer 4 (Port 80 blocked by a firewall) or Layer 7 (The Apache service is crashed).
+If the web page still does not load, the user can focus troubleshooting on **Layer 4** (for example, **Port 80 blocked by a firewall**) or **Layer 7** (for example, the **Apache service is not running or has crashed**).
 
 ---
 
