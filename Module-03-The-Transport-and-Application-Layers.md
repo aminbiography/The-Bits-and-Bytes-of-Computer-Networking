@@ -527,6 +527,8 @@ In modern operating systems, session management and encryption are typically han
 **A full network communication requires every layer (Physical → Data Link → Network → Transport → Application) to work together to deliver a TCP segment from a client to a server.**  
 **Example:** Computer 1 (10.1.1.100) opens a browser to reach Computer 2 (172.16.1.100:80) across Router A and Router B.
 
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00i-Application-Networking-Between-Server-and-Browse.jpg)
+
 **Default gateway routing**  
 **If the destination IP is outside the local subnet, the computer sends traffic to its default gateway for routing to other networks.**  
 **Example:** Computer 1 sees 172.16.1.100 is not in 10.1.1.0/24, so it forwards the packet to gateway 10.1.1.1.
