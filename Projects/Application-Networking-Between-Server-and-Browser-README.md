@@ -2,7 +2,7 @@
 
 ---
 
-### This presentation is based on "All the Layers Working in Unison" from "The Bits and Bytes of Computer Networking"
+### This presentation is based on **"All the Layers Working in Unison"** from **"The Bits and Bytes of Computer Networking"**
 
 ---
 
@@ -14,7 +14,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ---
 
-## Phase 1: The Local Decision (Computer 1)
+## Phase 1: Topology and Local Decision (Computer 1)
 
 **When the user enters an IP into a browser, the OS networking stack performs a logical comparison.**
 
@@ -22,7 +22,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 **ARP Discovery:** Computer 1 broadcasts an ARP Request to find the MAC address of the gateway. Router A responds with its hardware address.
 
-**Socket Creation:** The OS opens a socket using an Ephemeral Port (e.g., 50,000) to represent the web browser's end of the connection.
+**Socket Creation:** The OS opens a socket using an Ephemeral Port (e.g., 50,000) to represent the web browser’s end of the connection.
 
 ### Images (Phase 1)
 
@@ -44,7 +44,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 **Network (IP):** The segment is placed in a datagram with Source IP 10.1.1.100, Destination IP 172.16.1.100, and a TTL of 64.
 
-**Data Link (Ethernet):** The datagram is placed in a frame with Computer 1's MAC as source and Router A's MAC as the destination.
+**Data Link (Ethernet):** The datagram is placed in a frame with Computer 1’s MAC as source and Router A’s MAC as the destination.
 
 ### Images (Phase 2)
 
@@ -60,7 +60,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ---
 
-## Phase 3: Routing and the Hop (Router A to Router B)
+## Phase 3: Routing (Router A → Router B)
 
 **Routers act as the middlemen that bridge different networks.**
 
@@ -70,7 +70,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 **TTL Decrement:** The router reduces the Time To Live (TTL) by 1 and recalculates the checksum.
 
-**Re-encapsulation:** Router A creates a new Ethernet frame using Router B's MAC address as the destination.
+**Re-encapsulation:** Router A creates a new Ethernet frame using Router B’s MAC address as the destination.
 
 ### Images (Phase 3)
 
@@ -88,37 +88,43 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ---
 
-## Phase 4: Delivery and Hand-off (Computer 2)
+## Phase 4: Final Delivery (Router B → Computer 2)
 
-**Arrival:** Router B repeats the process, identifying that 172.16.1.100 is on its local interface (Network C), and sends the frame to Computer 2.
+**Arrival at Router B:** Router B receives the frame from Router A and strips the Ethernet header to inspect the IP packet.
 
-**Verification:** Computer 2 verifies all checksums (Ethernet, IP, and TCP).
+**TTL Decrement:** Router B decrements the TTL and updates the IP header checksum.
 
-**The Socket Match:** The networking stack identifies Port 80. It finds an active socket in the LISTEN state (held by the Apache web server).
+**Local Delivery Decision:** Router B identifies that 172.16.1.100 belongs to its directly connected network (Network C).
 
-**State Change:** Computer 2 records the sequence number from the SYN packet to prepare its response (SYN-ACK).
+**Re-encapsulation:** Router B builds a new Ethernet frame for the final hop to Computer 2.
 
-### Images (Phase 4)
+**Verification:** Computer 2 verifies Ethernet, IP, and TCP checksums.
 
-![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16a-Router-B-Builds-Ethernet-Frame-to-Computer-2.jpg)
+**Socket Match:** The OS identifies Port 80 and matches it to a socket in the LISTEN state (Apache).
+
+**State Tracking:** Computer 2 records the TCP sequence number from the SYN packet to prepare the SYN-ACK response.
+
+### Images (Phase 4) — Correct Sequence
 
 ![Phase 4 - Router A Forwarding to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
 
-![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17a-Packet-Delivered-to-Computer-2.jpg)
-
 ![Phase 4 - Router B Receives IP/TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
 
-![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18a-TCP-Segment-Checksum-Verified.jpg)
-
-![Phase 4 - IP Destination Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
-
-![Phase 4 - TCP Sequence Number Recorded](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19a-TCP-Sequence-Number-Recorded.jpg)
+![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16a-Router-B-Builds-Ethernet-Frame-to-Computer-2.jpg)
 
 ![Phase 4 - Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19b-Ethernet-Frame-to-Computer-2.jpg)
 
 ![Phase 4 - Router B to Computer 2 Delivery](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-B-to-Computer-2-Delivery.jpg)
 
+![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17a-Packet-Delivered-to-Computer-2.jpg)
+
+![Phase 4 - IP Destination Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
+
+![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18a-TCP-Segment-Checksum-Verified.jpg)
+
 ![Phase 4 - TCP Checksum Validation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-TCP-Checksum-Validation.jpg)
+
+![Phase 4 - TCP Sequence Number Recorded](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19a-TCP-Sequence-Number-Recorded.jpg)
 
 ![Phase 4 - TCP Sequence Number Tracking](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-TCP-Sequence-Number-Tracking.jpg)
 
@@ -130,7 +136,10 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 This scenario highlights why pinging is so useful. If **the user can ping Computer 2 from Computer 1**, it confirms that **Layers 1–3 (Physical, Data Link, and Network)** and all routing hops in between are functioning correctly.
 
-If the web page still does not load, the user can focus troubleshooting on **Layer 4** (for example, **Port 80 blocked by a firewall**) or **Layer 7** (for example, the **Apache service is not running or has crashed**).
+If the web page still does not load, the user can focus troubleshooting on:
+
+* **Layer 4** (for example, **Port 80 blocked by a firewall**)
+* **Layer 7** (for example, the **Apache service is not running or has crashed**)
 
 ---
 
@@ -209,3 +218,4 @@ If the web page still does not load, the user can focus troubleshooting on **Lay
 **Example:** SYN travels to Computer 2, then SYN/ACK travels back to Computer 1, then ACK travels again to Computer 2.
 
 ---
+
