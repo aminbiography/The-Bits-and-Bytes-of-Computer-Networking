@@ -52,7 +52,7 @@
 
 # Dissection of a TCP Segment
 
-![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00e-TCP-Segments-.png)
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00e-TCP-Segments.png)
 
 ## Encapsulation Context
 
