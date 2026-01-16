@@ -26,13 +26,38 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ### Images (Phase 1)
 
-![Phase 1 - Topology / Target](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-01-Network-Topology-Overview.jpg)
+#### Image 01 — Network Topology Overview
+![Phase 1 - Network Topology Overview](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-01-Network-Topology-Overview.jpg)
 
-![Phase 1 - ARP Request Broadcast](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-02-Topology-With-Router-A.jpg)
+#### Image 02 — Topology With Router A
+![Phase 1 - Topology With Router A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-02-Topology-With-Router-A.jpg)
 
-![Phase 1 - ARP Reply / MAC Learned](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-03-ARP-Reply-MAC-Learned.jpg)
+#### Image 03 — Topology With Router A and Router B
+![Phase 1 - Topology With Router A and Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-03-Topology-With-Router-A-and-Router-B.jpg)
 
-![Phase 1 - Connection Starting](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-04-Connection-Starting.jpg)
+#### Image 04 — Full Topology With All Interfaces
+![Phase 1 - Full Topology With All Interfaces](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-04-Full-Topology-With-All-Interfaces.jpg)
+
+#### Image 05 — Client and Server Identified
+![Phase 1 - Client and Server Identified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-05-Client-and-Server-Identified.jpg)
+
+#### Image 06 — Browser Starts TCP Connection
+![Phase 1 - Browser Starts TCP Connection](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-06-Browser-Starts-TCP-Connection.jpg)
+
+#### Image 07 — Subnet Decision (Local or Remote)
+![Phase 1 - Subnet Decision](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-07-Subnet-Decision-Local-or-Remote.jpg)
+
+#### Image 08 — ARP Cache Check (Gateway MAC Unknown)
+![Phase 1 - ARP Cache Check](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-08-ARP-Cache-Check-Gateway-MAC-Unknown.jpg)
+
+#### Image 09 — ARP Request Broadcast
+![Phase 1 - ARP Request Broadcast](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-09-ARP-Request-Broadcast.jpg)
+
+#### Image 10 — ARP Reply (Gateway MAC Learned)
+![Phase 1 - ARP Reply Gateway MAC Learned](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-10-ARP-Reply-Gateway-MAC-Learned.jpg)
+
+#### Image 11 — TCP Connection Continues
+![Phase 1 - TCP Connection Continues](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-TCP-Connection-Continues.jpg)
 
 ---
 
@@ -48,15 +73,20 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ### Images (Phase 2)
 
-![Phase 2 - TCP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-05-TCP-Datagram.jpg)
+#### Image 12 — TCP Segment Created
+![Phase 2 - TCP Segment Created](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TCP-Segment-Created.jpg)
 
-![Phase 2 - IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-06-IP-Datagram.jpg)
+#### Image 13 — IP Packet Created
+![Phase 2 - IP Packet Created](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-IP-Packet-Created.jpg)
 
-![Phase 2 - Encapsulation (IP + TCP)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-07-Encapsulation-IP-TCP.jpg)
+#### Image 14 — IP and TCP Encapsulation
+![Phase 2 - IP and TCP Encapsulation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-14-IP-and-TCP-Encapsulation.jpg)
 
-![Phase 2 - Ethernet Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-08-Ethernet-Datagram.jpg)
+#### Image 15 — Ethernet Frame Created
+![Phase 2 - Ethernet Frame Created](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-15-Ethernet-Frame-Created.jpg)
 
-![Phase 2 - Ethernet + IP + TCP Ready](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-09-Ethernet-IP-TCP-Ready.jpg)
+#### Image 16 — Ethernet, IP, and TCP Ready to Send
+![Phase 2 - Ethernet IP TCP Ready to Send](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16-Ethernet-IP-TCP-Ready-to-Send.jpg)
 
 ---
 
@@ -74,17 +104,23 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ### Images (Phase 3)
 
-![Phase 3 - Packet Leaving Computer 1](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-10-Packet-Leaving-Computer%201.jpg)
+#### Image 17 — Frame Leaves Client to Router A
+![Phase 3 - Frame Leaves Client to Router A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17-Frame-Leaves-Client-to-Router-A.jpg)
 
-![Phase 3 - Packet Arrives at Router A](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-11-Packet-Arrives-at-Router-A.jpg)
+#### Image 18 — Router A Receives Frame
+![Phase 3 - Router A Receives Frame](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18-Router-A-Receives-Frame.jpg)
 
-![Phase 3 - Router A Processing IP Datagram](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-12-TTL-Decrement-Checksum-Update.jpg)
+#### Image 19 — Router A Processes IP (TTL 64)
+![Phase 3 - Router A Processes IP TTL 64](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19-Router-A-Processes-IP-TTL-64.jpg)
 
-![Phase 3 - TTL Decrement and Checksum Update (Step 2)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-13-TTL-Decrement-Checksum-Update.jpg)
+#### Image 20 — Router A Decrements TTL and Updates Checksum
+![Phase 3 - Router A Decrements TTL and Updates Checksum](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-A-Decrements-TTL-and-Updates-Checksum.jpg)
 
-![Phase 3 - TTL Decrement and Checksum Update (Step 3)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-14-TTL-Decrement-Checksum%20Update.jpg)
+#### Image 21 — Router A Builds New Frame to Router B
+![Phase 3 - Router A Builds New Frame to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-Router-A-Builds-New-Frame-to-Router-B.jpg)
 
-![Phase 3 - New Ethernet Frame to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-15-New-Ethernet-Frame-to-Router-B.jpg)
+#### Image 22 — Router A Forwards to Router B
+![Phase 3 - Router A Forwards to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-Router-A-Forwards-to-Router-B.jpg)
 
 ---
 
@@ -104,31 +140,22 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 **State Tracking:** Computer 2 records the TCP sequence number from the SYN packet to prepare the SYN-ACK response.
 
-### Images (Phase 4) — Correct Sequence
+### Images (Phase 4)
 
-![Phase 4 - Router A Forwarding to Router B](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16b-Router-A-Forwarding-to-Router-B.jpg)
+#### Image 23 — Router B Receives IP/TCP
+![Phase 4 - Router B Receives IP TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-Router-B-Receives-IP-TCP.jpg)
 
-![Phase 4 - Router B Receives IP/TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17b-Router-B-Receives-IP-TCP.jpg)
+#### Image 24 — Router B Validates Destination IP
+![Phase 4 - Router B Validates Destination IP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-24-Router-B-Validates-Destination-IP.jpg)
 
-![Phase 4 - Router B Builds Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-16a-Router-B-Builds-Ethernet-Frame-to-Computer-2.jpg)
+#### Image 25 — Router B Builds Frame to Server
+![Phase 4 - Router B Builds Frame to Server](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-25-Router-B-Builds-Frame-to-Server.jpg)
 
-![Phase 4 - Ethernet Frame to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19b-Ethernet-Frame-to-Computer-2.jpg)
+#### Image 26 — Packet Delivered to Server
+![Phase 4 - Packet Delivered to Server](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-26-Packet-Delivered-to-Server.jpg)
 
-![Phase 4 - Router B to Computer 2 Delivery](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-20-Router-B-to-Computer-2-Delivery.jpg)
-
-![Phase 4 - Packet Delivered to Computer 2](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-17a-Packet-Delivered-to-Computer-2.jpg)
-
-![Phase 4 - IP Destination Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18b-IP-Destination-Verified.jpg)
-
-![Phase 4 - TCP Segment Checksum Verified](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-18a-TCP-Segment-Checksum-Verified.jpg)
-
-![Phase 4 - TCP Checksum Validation](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-21-TCP-Checksum-Validation.jpg)
-
-![Phase 4 - TCP Sequence Number Recorded](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-19a-TCP-Sequence-Number-Recorded.jpg)
-
-![Phase 4 - TCP Sequence Number Tracking](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-22-TCP-Sequence-Number-Tracking.jpg)
-
-![Phase 4 - TCP SYN Arrives at Server](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-TCP-SYN-Arrives-at-Server.jpg)
+#### Image 27 — Server Validates TCP Checksum and Sequence
+![Phase 4 - Server Validates TCP Checksum and Sequence](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-27-Server-Validates-TCP-Checksum-and-Sequence.jpg)
 
 ---
 
@@ -138,8 +165,8 @@ This scenario highlights why pinging is so useful. If **the user can ping Comput
 
 If the web page still does not load, the user can focus troubleshooting on:
 
-* **Layer 4** (for example, **Port 80 blocked by a firewall**)
-* **Layer 7** (for example, the **Apache service is not running or has crashed**)
+- **Layer 4** (for example, **Port 80 blocked by a firewall**)
+- **Layer 7** (for example, the **Apache service is not running or has crashed**)
 
 ---
 
@@ -218,4 +245,3 @@ If the web page still does not load, the user can focus troubleshooting on:
 **Example:** SYN travels to Computer 2, then SYN/ACK travels back to Computer 1, then ACK travels again to Computer 2.
 
 ---
-
