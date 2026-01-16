@@ -1,5 +1,7 @@
 # Transport and Application Layers
 
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00a-Transport-and-Application-Layers.png)
+
 ---
 
 **Transport layer:** Allows traffic to be directed to specific network applications.  
@@ -11,6 +13,10 @@
 ---
 
 # The Transport Layer
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00b-Multiplex-and-Demultiplex-01.jpg)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00c-Multiplexing-and-Demultiplexing-02.jpg)
 
 **Transport layer:** Provides reliable communication by managing multiplexing, demultiplexing, connection handling, and data integrity through error checking and verification.  
 **Example:** TCP establishes long-running connections and verifies data delivery.
@@ -46,6 +52,8 @@
 
 # Dissection of a TCP Segment
 
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00e-TCP-Segments-.png)
+
 ## Encapsulation Context
 
 To understand the TCP segment, we must look at how it fits into the overall data package:
@@ -60,6 +68,8 @@ A TCP segment is the transport-layer unit responsible for reliable, ordered, and
 **Example:** A web page is broken into multiple TCP segments before being sent across the network.
 
 ## TCP Header
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00d-TCP-Header.jpg)
 
 The TCP header contains control and management fields required for connection handling, sequencing, flow control, and integrity checking.  
 **Example:** Sequence numbers and acknowledgments ensure data arrives in order and without loss.
@@ -77,6 +87,8 @@ The TCP header contains control and management fields required for connection ha
 ---
 
 # TCP Control Flags and the Three-way Handshake
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00f-Three-Way-Handshake.jpg)
 
 ## TCP (Transmission Control Protocol): Purpose
 
@@ -114,6 +126,12 @@ Indicates that the sender has no more data to transmit and wants to close the co
 
 ## The Three-Way Handshake (Establishing Connection)
 
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00g-SYN-ACK-Pairs.jpg)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00j-SYN-ACK-Pairs-Ordered.jpg)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00k-SYN-ACK-Pairs-Out-of-Order.jpg)
+
 This process ensures both sides are ready and synchronized before data transfer begins.
 
 - **SYN:** Computer A sends a SYN to Computer B (requesting a connection).
@@ -124,6 +142,8 @@ This process ensures both sides are ready and synchronized before data transfer 
 **Example:** Happens every time a TCP connection is opened.
 
 ## The Four-Way Handshake (Closing Connection)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00h-Four-Way-Handshake.jpg)
 
 Closing a connection requires a separate goodbye from both sides to avoid cutting off data.
 
@@ -333,6 +353,10 @@ When hardening a system, close all ports by default and open only those explicit
 
 # Firewalls
 
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00l-Firewall.jpg)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00m-Built-in-Firewall.jpg)
+
 **Firewall:** A device or program that blocks or allows network traffic based on defined criteria.  
 **Example:** Blocking unwanted inbound traffic to protect a private network.
 
@@ -371,6 +395,8 @@ Performs deep packet inspection to analyze actual data payloads for malicious co
 ---
 
 # The Application Layer
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00i-Application-Networking-Between-Server-and-Browse.jpg)
 
 ## The Role of the Application Layer
 
@@ -434,6 +460,10 @@ Understanding the Application Layer helps distinguish network issues from softwa
 ---
 
 # The Application Layer and the OSI Model
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00n-OSI-Model.jpg)
+
+![](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-00o-OSI-Vs-TCP-IP.jpg)
 
 ## The OSI Model (Open Systems Interconnection)
 
