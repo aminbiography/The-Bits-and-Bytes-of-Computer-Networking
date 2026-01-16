@@ -26,9 +26,9 @@ A full network communication requires every layer (Physical → Data Link → Ne
 
 ### Images (Phase 1)
 
-![Phase 1 - Topology / Target](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-01-Topology-Target.jpg)
+![Phase 1 - Topology / Target](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-01-Network-Topology-Overview.jpg)
 
-![Phase 1 - ARP Request Broadcast](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-02-ARP-Request-Broadcast.jpg)
+![Phase 1 - ARP Request Broadcast](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-02-Topology-With-Router-A.jpg)
 
 ![Phase 1 - ARP Reply / MAC Learned](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-03-ARP-Reply-MAC-Learned.jpg)
 
