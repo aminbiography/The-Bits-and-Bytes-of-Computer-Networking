@@ -143,7 +143,7 @@ A full network communication requires every layer (Physical → Data Link → Ne
 ### Images (Phase 4)
 
 #### Image 23 — Router B Receives IP/TCP
-![Phase 4 - Router B Receives IP TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-Router-B-Processes-IP-TTL-63.jpg)
+![Phase 4 - Router B Receives IP TCP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-23-Router-B-Receives-IP-TCP.jpg)
 
 #### Image 24 — Router B Validates Destination IP
 ![Phase 4 - Router B Validates Destination IP](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-03-24-Router-B-Validates-Destination-IP.jpg)
