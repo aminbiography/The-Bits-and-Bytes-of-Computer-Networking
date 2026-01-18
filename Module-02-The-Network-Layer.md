@@ -64,6 +64,17 @@ Usable hosts per subnet are calculated as:
 
 ---
 
+## Address Classes (Legacy System)
+
+- **Class A** – First octet is the network ID (0–127)
+- **Class B** – First two octets are the network ID (128–191)
+- **Class C** – First three octets are the network ID (192–223)
+- **Class D** – Multicast traffic
+- **Class E** – Experimental use
+
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Class-A-B-C-Default-Table.png)
+
+---
 ## CIDR (Classless Inter-Domain Routing)
 
 CIDR replaces the rigid Class A, B, and C addressing system.  
@@ -74,18 +85,6 @@ Example:
 - `9.100.100.100/27`
 
 CIDR allows flexible network sizing and reduces routing table size.
-
----
-
-## Address Classes (Legacy System)
-
-- **Class A** – First octet is the network ID (0–127)
-- **Class B** – First two octets are the network ID (128–191)
-- **Class C** – First three octets are the network ID (192–223)
-- **Class D** – Multicast traffic
-- **Class E** – Experimental use
-
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Class-A-B-C-Default-Table.png)
 
 ![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Slash-Notation-Example-192.168.1.0-24-255.255.255.0.png)
 
