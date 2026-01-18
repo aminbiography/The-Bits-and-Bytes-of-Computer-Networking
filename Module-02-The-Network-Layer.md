@@ -43,6 +43,8 @@ IP addresses are logical and hierarchical, allowing packets to traverse multiple
 Subnetting is the process of dividing a large network into smaller, more manageable subnetworks (subnets).  
 It improves performance, security, routing efficiency, and IP address utilization.
 
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Subnetting-Example-192.168.1.0-255.255.255.192-26.png)
+
 ### Subnet Mask
 
 A subnet mask is a 32-bit value that determines which portion of an IP address represents:
