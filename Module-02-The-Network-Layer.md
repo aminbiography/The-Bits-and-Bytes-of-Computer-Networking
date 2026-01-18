@@ -47,6 +47,8 @@ It improves performance, security, routing efficiency, and IP address utilizatio
 
 A subnet mask is a 32-bit value that determines which portion of an IP address represents:
 
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-Binary-Networks-Hosts.png)
+
 - **Network/Subnet ID** – Bits set to `1`
 - **Host ID** – Bits set to `0`
 
