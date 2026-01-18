@@ -72,7 +72,7 @@ Usable hosts per subnet are calculated as:
 - **Class D** – Multicast traffic
 - **Class E** – Experimental use
 
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Class-A-B-C-Default-Table.png)
+![IPv4 Subnetting Example - 192.168.1.0/26](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Class-A-B-C-Default-Table.png)
 
 ---
 ## CIDR (Classless Inter-Domain Routing)
@@ -86,9 +86,9 @@ Example:
 
 CIDR allows flexible network sizing and reduces routing table size.
 
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Slash-Notation-Example-192.168.1.0-24-255.255.255.0.png)
+![Default Subnet Masks for Class A, B, and C](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Slash-Notation-Example-192.168.1.0-24-255.255.255.0.png)
 
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Examples-192.168.1.0-25-26-Subnet-Masks-255.255.255.128-255.255.255.192.png)
+![CIDR Examples - /25 and /26 subnet masks](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Examples-192.168.1.0-25-26-Subnet-Masks-255.255.255.128-255.255.255.192.png)
 
 ---
 
@@ -97,7 +97,7 @@ CIDR allows flexible network sizing and reduces routing table size.
 - **Base 2** – Computers use binary due to logic gate design (0 = False, 1 = True)
 - **Octets** – IP addresses consist of four 8-bit octets (0–255)
 
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-Binary-Networks-Hosts.png)
+![Binary Breakdown of Network and Host Bits](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-Binary-Networks-Hosts.png)
 
 ### Logical Operators
 
