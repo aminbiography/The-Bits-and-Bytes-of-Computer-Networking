@@ -49,8 +49,6 @@ It improves performance, security, routing efficiency, and IP address utilizatio
 
 A subnet mask is a 32-bit value that determines which portion of an IP address represents:
 
-![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-Binary-Networks-Hosts.png)
-
 - **Network/Subnet ID** – Bits set to `1`
 - **Host ID** – Bits set to `0`
 
@@ -87,12 +85,20 @@ CIDR allows flexible network sizing and reduces routing table size.
 - **Class D** – Multicast traffic
 - **Class E** – Experimental use
 
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-IPv4-Class-A-B-C-Default-Table.png)
+
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Slash-Notation-Example-192.168.1.0-24-255.255.255.0.png)
+
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-CIDR-Examples-192.168.1.0-25-26-Subnet-Masks-255.255.255.128-255.255.255.192.png)
+
 ---
 
 ## Binary Math & Logic
 
 - **Base 2** – Computers use binary due to logic gate design (0 = False, 1 = True)
 - **Octets** – IP addresses consist of four 8-bit octets (0–255)
+
+![IP Datagram Header](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/Subnet-Mask-Binary-Networks-Hosts.png)
 
 ### Logical Operators
 
