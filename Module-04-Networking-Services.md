@@ -1,5 +1,7 @@
 # Network Services 
 
+---
+
 This topic is based on key network services like **DNS, DHCP, NAT, VPNs, and proxies**, and how they improve **usability** and **security**.
 
 ---
