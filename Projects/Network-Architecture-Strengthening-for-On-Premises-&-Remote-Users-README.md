@@ -48,7 +48,7 @@ Internet / Public Servers (Public Network)
         /       \
 [User Devices]  DHCP + DNS
 (PCs/Laptops)  (Private Network Services)
-````
+```
 
 ---
 
@@ -65,7 +65,7 @@ Cloud Servers (Public Network)
             |
  Office LAN / Private Network
             |
-      [Remote User Devices / Desktop / Laptop]
+      [Remote User Devices PCs/Laptops]
 ```
 
 ---
@@ -89,7 +89,7 @@ Internet (Public Network)
      |
  Ethernet Cable (Private/LAN)
      |
-[User Devices / Desktop / Laptop] (Private Network)
+[User Devices PCs/Laptops] (Private Network)
 ```
 
 ---
