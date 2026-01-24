@@ -161,7 +161,7 @@ New-NetFirewallRule -DisplayName "Allow SSH" -Direction Inbound -Protocol TCP -L
 
    * Controls access to cloud servers and services.
 
-**Simple:** A **firewall** exists on the **network edge and security zones** to **filter traffic and block unauthorized access**.
+**Simply:** A **firewall** exists on the **network edge and security zones** to **filter traffic and block unauthorized access**.
 
 
 ---
@@ -259,6 +259,18 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 * Install and configure switches to connect multiple computers and network devices.
 * Ensure fast and reliable communication inside the office network.
 
+A **switch** exists inside the **Local Area Network (LAN)** to connect multiple devices and enable fast internal communication.
+
+***Switch commonly exists in:***
+
+1. **Office LAN / On-Premises Network** *(most common)*
+2. **Data Centers / Server Rooms** *(to connect servers, storage, and core devices)*
+3. **Network Closets / Floor Distribution Areas** *(access switches for each floor)*
+4. **Home Networks** *(optional, to add more Ethernet ports)*
+
+**Simply: SWITCH exists within the internal LAN to connect computers, printers, and servers, allowing devices to communicate efficiently using Ethernet switching.**
+
+
 ---
 
 ### Step 7: Enable Secure Remote Access for Remote Users
@@ -267,6 +279,19 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 
 * Configure VPN access for remote users to connect to the office network securely.
 * Encrypt traffic to protect sensitive data and internal resources from exposure.
+
+A **VPN** exists on the **remote access gateway** that allows remote users to connect securely to the private network over the Internet.
+
+***VPN commonly exists on:***
+
+1. **Firewall Appliance** *(most common in enterprise networks)*
+2. **Router** *(many routers support VPN features)*
+3. **Dedicated VPN Server** *(Windows Server / Linux server running VPN software)*
+4. **Cloud VPN Gateway** *(VPN service in cloud environments)*
+5. **Client Devices (VPN Client Software)** *(laptop/phone uses VPN app to connect)*
+
+**Simply: VPN exists on a VPN gateway (router/firewall/server) that creates an encrypted tunnel over the Internet, allowing authorized remote users to securely access internal network resources.**
+
 
 ---
 
