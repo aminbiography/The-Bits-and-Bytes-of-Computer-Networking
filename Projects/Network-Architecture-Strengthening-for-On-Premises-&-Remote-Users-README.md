@@ -79,7 +79,7 @@ Internet (Public Network)
      |
  Ethernet Cable (LAN)
      |
-[My Laptop]
+[User Laptop]
 ```
 
 ---
