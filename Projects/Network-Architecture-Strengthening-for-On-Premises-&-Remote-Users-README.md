@@ -37,7 +37,7 @@ Internet / Servers (Public Network)
           SWITCH
             |
 [User Devices / PCs / Laptops]
-```
+``` 
 
 ---
 
