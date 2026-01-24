@@ -218,6 +218,19 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
   * DNS Server
 * Reduce manual configuration errors and improve efficiency for new device connections.
 
+**DHCP exists on the **network service/device** that automatically assigns IP configuration to client devices inside the LAN.**
+
+**DHCP commonly exists on:**
+
+1. **Router** *(home and small office networks)*
+2. **Windows Server** *(enterprise environments using Active Directory)*
+3. **Linux Server** *(ISC DHCP / dnsmasq, etc.)*
+4. **Dedicated DHCP Server / Appliance**
+5. **Firewall** *(many firewalls include DHCP service)*
+6. **Cloud DHCP Service** *(built into cloud virtual networks, such as VPC/VNet)*
+
+**Simply: DHCP (Dynamic Host Configuration Protocol) exists on the network service that automatically assigns IP address, subnet mask, default gateway, and DNS settings to client devices on the LAN.**
+
 ---
 
 ### Step 5: Ensure Domain Name Access Works Correctly
