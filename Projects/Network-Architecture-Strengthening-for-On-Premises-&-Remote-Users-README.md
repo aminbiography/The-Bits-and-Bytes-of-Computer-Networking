@@ -24,6 +24,8 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ## Main Physical Devices (Hardware)
 
+![Main Physical Devices (Hardware)](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-04-Network-Architecture-Strengthening-for-On-Premises-%26-Remote-Users-%20Main-Physical-Devices-(Hardware).png)
+
 * **Cloud Servers / Websites** *(remote servers in data centers)*
 * **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
 * **ISP Connection Box** *(Modem / ONU / ONT)*
