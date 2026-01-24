@@ -60,6 +60,30 @@ Cloud Servers (Public Network)
 
 ---
 
+## Cloud Server-to-Laptop Connection Flow (Real Example)
+
+```text
+[Cloud Servers / Websites]
+     |
+Internet (Public Network)
+     |
+[ISP DNS / ISP Servers]
+     |
+   ISP Network
+     |
+[ISP Connection Box / Modem / ONU]
+     |
+ WAN Cable
+     |
+   [Router]
+     |
+ Ethernet Cable (LAN)
+     |
+[My Laptop]
+```
+
+---
+
 
 ## Project Description (Steps)
 
