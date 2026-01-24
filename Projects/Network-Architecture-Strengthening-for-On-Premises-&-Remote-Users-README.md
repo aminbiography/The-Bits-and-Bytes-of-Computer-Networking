@@ -65,6 +65,21 @@ sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j
 New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 ```
 
+NAT (**Network Address Translation**) exists on the **network device that sits between your private network (LAN) and the public Internet (WAN)**.
+
+**NAT commonly exists on:**
+
+1. **Router** *(most common in home and small office networks)*
+2. **Firewall** *(very common in business/enterprise networks)*
+3. **Layer 3 Switch** *(sometimes, if it is used as the gateway)*
+4. **Server acting as a gateway** *(Linux/Windows running routing + NAT software)*
+5. **Cloud gateway devices/services** *(NAT Gateway in cloud environments)*
+
+**Key point**
+
+NAT is a **feature/service**, not a standalone device.
+It exists on **whatever device is acting as the Internet gateway** for the network.
+
 ---
 
 ### Step 4: Automate Network Configuration for Endpoints
