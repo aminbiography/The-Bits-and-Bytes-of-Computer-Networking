@@ -12,23 +12,23 @@ An organization operates an on-premises office network that supports daily busin
 
 To strengthen the network architecture for both on-premises and remote users by achieving the following goals:
 
-* Provide stable Internet connectivity for office users
-* Secure the network by blocking unwanted and malicious traffic
-* Enable multiple internal devices to share one public IP address
-* Automatically assign correct network settings to endpoints
-* Ensure websites open properly using domain names (DNS resolution)
-* Build a reliable and high-speed internal LAN environment
-* Enable secure remote access for authorized remote users
+- Provide stable Internet connectivity for office users
+- Secure the network by blocking unwanted and malicious traffic
+- Enable multiple internal devices to share one public IP address
+- Automatically assign correct network settings to endpoints
+- Ensure websites open properly using domain names (DNS resolution)
+- Build a reliable and high-speed internal LAN environment
+- Enable secure remote access for authorized remote users
 
 ---
 
-## Main Physical Devices (Hardware) 
+## Main Physical Devices (Hardware)
 
-* **Cloud Servers / Websites** *(remote servers in data centers)*
-* **ISP Connection Box** *(Modem / ONU / ONT)*
-* **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
-* **Router**
-* **User Devices** *(Desktop / Laptop)*
+- **Cloud Servers / Websites** *(remote servers in data centers)*
+- **ISP Connection Box** *(Modem / ONU / ONT)*
+- **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
+- **Router**
+- **User Devices** *(Desktop / Laptop)*
 
 ---
 
@@ -48,7 +48,7 @@ Internet / Public Servers (Public Network)
         /       \
 [User Devices]  DHCP + DNS
 (PCs/Laptops)  (Private Network Services)
-```
+````
 
 ---
 
@@ -65,7 +65,7 @@ Cloud Servers (Public Network)
             |
  Office LAN / Private Network
             |
-      [Remote User / Laptop]
+      [Remote User Devices / Desktop / Laptop]
 ```
 
 ---
@@ -293,5 +293,4 @@ This project successfully strengthened the network architecture for on-premises 
 * **Project Implementation and Documentation:** Mohammad Aminul Islam
 * **Copyright and Trademarks:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
 
----
-
+```
