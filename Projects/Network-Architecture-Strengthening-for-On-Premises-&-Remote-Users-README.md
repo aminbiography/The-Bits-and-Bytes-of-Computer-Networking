@@ -190,7 +190,7 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 
 ### Step 4: Automate Network Configuration for Endpoints
 
-**Device/Service:** DHCP
+**Device/Service:** **DHCP**
 
 * Enable DHCP to automatically assign:
 
@@ -204,7 +204,7 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 
 ### Step 5: Ensure Domain Name Access Works Correctly
 
-**Device/Service:** DNS
+**Device/Service:** **DNS**
 
 * Configure DNS services so users can access websites by name (example: **google.com**).
 * Resolve issues where websites do not open by domain name, but work by IP address.
@@ -213,7 +213,7 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 
 ### Step 6: Improve Internal LAN Connectivity and Performance
 
-**Device/Service:** SWITCH
+**Device/Service:** **SWITCH**
 
 * Install and configure switches to connect multiple computers and network devices.
 * Ensure fast and reliable communication inside the office network.
@@ -222,7 +222,7 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 
 ### Step 7: Enable Secure Remote Access for Remote Users
 
-**Device/Service:** VPN
+**Device/Service:** **VPN**
 
 * Configure VPN access for remote users to connect to the office network securely.
 * Encrypt traffic to protect sensitive data and internal resources from exposure.
