@@ -87,6 +87,24 @@ Internet (Public Network)
 
 ## Project Description (Steps)
 
+#### Network Services Flow (End-to-End)
+
+```text
+1) ROUTER   → Connect the Internet / Provide network access
+      |
+2) FIREWALL → Secure the network / Block unwanted traffic
+      |
+3) NAT      → Allow many devices to share one public IP
+      |
+4) DHCP     → Automatically assign IP, Gateway, Subnet Mask, DNS
+      |
+5) DNS      → Fix website not opening by name (google.com), but IP works
+      |
+6) SWITCH   → Connect many computers inside the office LAN
+      |
+7) VPN      → Allow remote employees to access office network securely
+```
+
 ### Step 1: Provide Internet Connectivity for On-Premises Users
 
 **Device/Service:** **ROUTER**
