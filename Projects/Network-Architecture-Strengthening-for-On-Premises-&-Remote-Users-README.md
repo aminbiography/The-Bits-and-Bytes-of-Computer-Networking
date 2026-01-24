@@ -26,25 +26,68 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ### Step 1: Provide Internet Connectivity for On-Premises Users
 
-**Device/Service:** ROUTER
+**Device/Service:** **ROUTER**
 
 * Configure the router to connect the internal office LAN to the Internet.
 * Ensure the router functions as the default gateway for internal devices.
 
 ---
 
-### Step 2: Strengthen Network Security and Control Traffic
+### Step 2: Strengthen Network Security and Block Unwanted Traffic
 
-**Device/Service:** FIREWALL
+**Device/Service:** **FIREWALL**
 
-* Deploy a firewall to monitor and filter inbound and outbound traffic.
-* Block unauthorized connections and enforce security policies.
+* Deploy a firewall at the network edge to inspect inbound and outbound traffic.
+* Apply security rules to allow trusted services and block unauthorized or suspicious connections.
+* Reduce the risk of malware, intrusion attempts, and data exposure by enforcing controlled access policies.
+
+**Firewall Snippet (Linux – UFW):**
+
+```bash
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw enable
+```
+
+**Firewall Snippet (Windows – PowerShell):**
+
+```powershell
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
+New-NetFirewallRule -DisplayName "Allow SSH" -Direction Inbound -Protocol TCP -LocalPort 22 -Action Allow
+```
+**FIREWALL (Network Firewall) exists on the network security device positioned between the private network (LAN) and the public Internet (WAN) to inspect, filter, and control inbound and outbound traffic.**
+
+**Firewall commonly exists on:**
+
+1. **Between the Internet (WAN) and the Office Network (LAN)** *(most common)*
+
+   * Protects the internal network from external threats.
+
+2. **Between Internal Network Segments (LAN to LAN / VLAN to VLAN)**
+
+   * Controls traffic between departments (example: HR vs IT vs Finance).
+
+3. **In front of Critical Servers (Server Network / DMZ)**
+
+   * Protects services like web servers, email servers, and application servers.
+
+4. **On Individual Devices (Host-Based Firewall)**
+
+   * Example: Windows Defender Firewall on a laptop or server.
+
+5. **In Cloud Environments (Cloud Firewall / Security Groups)**
+
+   * Controls access to cloud servers and services.
+
+**Simple:** A **firewall** exists on the **network edge and security zones** to **filter traffic and block unauthorized access**.
+
 
 ---
 
 ### Step 3: Enable Shared Internet Access Using a Single Public IP
 
-**Device/Service:** NAT *(Network Address Translation)*
+**Device/Service:** **NAT** *(Network Address Translation)*
 
 * Configure NAT on the network edge (gateway) to translate private LAN IP addresses into one public IP address.
 * Allow multiple internal devices to access the Internet securely and efficiently through a single public-facing IP.
@@ -65,7 +108,7 @@ sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j
 New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 ```
 
-NAT (**Network Address Translation**) exists on the **network device that sits between your private network (LAN) and the public Internet (WAN)**.
+**NAT** (**Network Address Translation**) exists on the **network device that sits between your private network (LAN) and the public Internet (WAN)**.
 
 **NAT commonly exists on:**
 
