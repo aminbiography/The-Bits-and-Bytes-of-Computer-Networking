@@ -32,7 +32,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-## Server-to-User Network Flow (On-Premises- Public + Private)
+## Server-to-User Network Flow (On-Premises: Public + Private)
 
 ```text
 Internet / Public Servers (Public Network)
@@ -45,10 +45,9 @@ Internet / Public Servers (Public Network)
      Office LAN (Private Network)
             |
           SWITCH
-            |
-   DHCP + DNS (Network Services)
-            |
-[User Devices / PCs / Laptops]
+        /       \
+[User Devices]  DHCP + DNS
+(PCs/Laptops)  (Private Network Services)
 ```
 
 ---
