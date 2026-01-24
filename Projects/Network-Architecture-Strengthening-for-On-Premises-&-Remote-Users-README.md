@@ -22,7 +22,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-## Server-to-User Network Flow 
+## Server-to-User Network Flow (On-Premises)
 
 ```text
 Internet / Servers (Public Network)
@@ -37,24 +37,29 @@ Internet / Servers (Public Network)
           SWITCH
             |
 [User Devices / PCs / Laptops]
-``` 
+```
 
 ---
 
-### Remote Users (Secure Access Path)
 
-```
-[Remote Users]
-     |
-    VPN
-     |
-[Firewall/Router]
-     |
-  Office LAN (Switch + Services)
-```
+## Cloud Server-to-Remote User Network Flow
 
+```text
+Cloud Servers (Public Network)
+            |
+     Cloud Firewall / Security
+            |
+     Internet (Public Network)
+            |
+            VPN
+            |
+   ROUTER / FIREWALL (VPN Gateway)
+            |
+      [Remote User / Laptop]
+```
 
 ---
+
 
 ## Project Description (Steps)
 
