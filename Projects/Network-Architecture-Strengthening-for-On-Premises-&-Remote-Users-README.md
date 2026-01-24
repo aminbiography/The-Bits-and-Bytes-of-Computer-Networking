@@ -112,6 +112,18 @@ Internet (Public Network)
 * Configure the router to connect the internal office LAN to the Internet.
 * Ensure the router functions as the default gateway for internal devices.
 
+A **Router** is the **main gateway device** that connects your **local network (LAN)** to the **Internet (WAN)** and routes data between them.
+
+Inside a typical **router**, these built-in functions usually exist:
+
+* **Routing (Gateway):** Sends traffic between LAN and WAN
+* **NAT:** Allows many devices to share one public IP address
+* **Basic Firewall:** Blocks or allows traffic using simple security rules
+* **DHCP Server:** Automatically gives IP address, gateway, subnet mask, and DNS to devices
+* **DNS Forwarding (DNS Relay):** Forwards DNS requests to ISP or public DNS servers
+* **LAN Switch Ports:** Provides multiple Ethernet ports for wired devices
+* **Wi-Fi Access Point (if wireless router):** Provides wireless connection for laptops and phones
+
 ---
 
 ### Step 2: Strengthen Network Security and Block Unwanted Traffic
