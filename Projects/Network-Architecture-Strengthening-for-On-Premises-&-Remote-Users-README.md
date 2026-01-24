@@ -67,7 +67,7 @@ Cloud Servers (Public Network)
             |
  Office LAN / Private Network
             |
-      [Remote User Devices PCs/Laptops]
+      [Remote User Devices (PCs / Laptops)]
 ```
 
 ---
@@ -91,7 +91,7 @@ Internet (Public Network)
      |
  Ethernet Cable (Private/LAN)
      |
-[User Devices PCs/Laptops] (Private Network)
+[User Devices (PCs / Laptops)] (Private Network)
 ```
 
 ---
