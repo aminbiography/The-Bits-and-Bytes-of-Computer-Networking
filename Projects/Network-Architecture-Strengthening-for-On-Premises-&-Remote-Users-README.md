@@ -28,7 +28,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 * **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
 * **ISP Connection Box** *(Modem / ONU / ONT)*
 * **Router** *(Gateway device)* + **Switch** *(LAN Switch — optional / for expanding LAN ports)*
-* **User Devices** *(PCs / Laptops)*
+* **User Devices** *(PCs / Laptops / Printers / Tablets / Smartphones / IoT Devices)*
 
 ---
 
