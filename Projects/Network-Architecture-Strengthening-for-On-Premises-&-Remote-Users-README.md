@@ -22,15 +22,17 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-## Server-to-User Network Flow (On-Premises)
+## Server-to-User Network Flow (On-Premises- Public + Private)
 
 ```text
-Internet / Servers (Public Network)
+Internet / Public Servers (Public Network)
             |
            NAT
             |
       ROUTER / FIREWALL
      (Gateway + Security)
+            |
+     Office LAN (Private Network)
             |
           SWITCH
             |
@@ -41,42 +43,44 @@ Internet / Servers (Public Network)
 
 ---
 
-## Cloud Server-to-Remote User Network Flow
+## Cloud Server-to-Remote User Network Flow (Public + Private)
 
 ```text
 Cloud Servers (Public Network)
             |
      Internet (Public Network)
             |
-            VPN
+            VPN (Encrypted Tunnel)
             |
    ROUTER / FIREWALL (VPN Gateway)
+            |
+ Office LAN / Private Network
             |
       [Remote User / Laptop]
 ```
 
 ---
 
-## Cloud Server-to-User Devices Connection Flow (Real Example)
+## Cloud Server-to-User Devices Connection Flow (Real Example: Public + Private)
 
 ```text
-[Cloud Servers / Websites]
+[Cloud Servers / Websites] (Public Network)
      |
 Internet (Public Network)
      |
-[ISP DNS / ISP Servers]
+[ISP DNS / ISP Servers] (Public Network)
      |
-   ISP Network
+   ISP Network (Public Network)
      |
 [ISP Connection Box / Modem / ONU]
      |
- WAN Cable
+ WAN Cable (Public/WAN)
      |
-   [Router]
+   [Router] (Gateway)
      |
- Ethernet Cable (LAN)
+ Ethernet Cable (Private/LAN)
      |
-[User Devices / Desktop / Laptop]
+[User Devices / Desktop / Laptop] (Private Network)
 ```
 
 ---
