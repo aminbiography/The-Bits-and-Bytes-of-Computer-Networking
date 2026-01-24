@@ -22,6 +22,38 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
+Below is the **normal network flow (User → Server/Internet)** with proper alignment:
+
+```
+[User Devices / PCs / Laptops]
+            |
+          SWITCH
+            |
+   DHCP + DNS (Network Services)
+            |
+      ROUTER / FIREWALL
+     (Gateway + Security)
+            |
+           NAT
+            |
+      Internet / Servers
+```
+
+### Remote Users (Secure Access Path)
+
+```
+[Remote Users]
+     |
+    VPN
+     |
+[Firewall/Router]
+     |
+  Office LAN (Switch + Services)
+```
+
+
+---
+
 ## Project Description (Steps)
 
 ### Step 1: Provide Internet Connectivity for On-Premises Users
