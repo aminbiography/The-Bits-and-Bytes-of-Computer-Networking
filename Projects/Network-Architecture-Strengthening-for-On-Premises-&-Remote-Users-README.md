@@ -24,11 +24,11 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ## Main Physical Devices (Hardware)
 
-- **Cloud Servers / Websites** *(remote servers in data centers)*
-- **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
-- **ISP Connection Box** *(Modem / ONU / ONT)*
-- **Router**
-- **User Devices** *(Desktop / Laptop)*
+* **Cloud Servers / Websites** *(remote servers in data centers)*
+* **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
+* **ISP Connection Box** *(Modem / ONU / ONT)*
+* **Router** *(Gateway device)* + **Switch** *(LAN Switch — optional / for expanding LAN ports)*
+* **User Devices** *(PCs / Laptops)*
 
 ---
 
