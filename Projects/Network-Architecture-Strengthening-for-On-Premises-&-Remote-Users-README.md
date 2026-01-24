@@ -199,8 +199,7 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 4. **Server acting as a gateway** *(Linux/Windows running routing + NAT software)*
 5. **Cloud gateway devices/services** *(NAT Gateway in cloud environments)*
 
-**Key point**
-
+**Simply:**
 NAT is a **feature/service**, not a standalone device.
 It exists on **whatever device is acting as the Internet gateway** for the network.
 
