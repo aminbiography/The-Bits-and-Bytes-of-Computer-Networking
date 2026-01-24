@@ -90,19 +90,19 @@ Internet (Public Network)
 #### Network Services Flow (End-to-End)
 
 ```text
-1) ROUTER   → Connect the Internet / Provide network access
+1) ROUTER (Routes traffic between LAN and WAN) → Connect the Internet / Provide network access
       |
-2) FIREWALL → Secure the network / Block unwanted traffic
+2) FIREWALL (Filters traffic using security rules) → Secure the network / Block unwanted traffic
       |
-3) NAT      → Allow many devices to share one public IP
+3) NAT (Network Address Translation) → Allow many devices to share one public IP
       |
-4) DHCP     → Automatically assign IP, Gateway, Subnet Mask, DNS
+4) DHCP (Dynamic Host Configuration Protocol) → Automatically assign IP, Gateway, Subnet Mask, DNS
       |
-5) DNS      → Fix website not opening by name (google.com), but IP works
+5) DNS (Domain Name System) → Fix website not opening by name (google.com), but IP works
       |
-6) SWITCH   → Connect many computers inside the office LAN
+6) SWITCH (Connects devices inside the LAN) → Connect many computers inside the office LAN
       |
-7) VPN      → Allow remote employees to access office network securely
+7) VPN (Virtual Private Network) → Allow remote employees to access office network securely
 ```
 
 ### Step 1: Provide Internet Connectivity for On-Premises Users
