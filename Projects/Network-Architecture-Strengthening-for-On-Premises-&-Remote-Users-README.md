@@ -42,12 +42,28 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-### Step 3: Enable Shared Internet Access Through a Single Public IP
+### Step 3: Enable Shared Internet Access Using a Single Public IP
 
-**Device/Service:** NAT
+**Device/Service:** NAT *(Network Address Translation)*
 
-* Configure NAT on the network edge.
-* Allow multiple internal devices to access the Internet using one public IP address.
+* Configure NAT on the network edge (gateway) to translate private LAN IP addresses into one public IP address.
+* Allow multiple internal devices to access the Internet securely and efficiently through a single public-facing IP.
+
+**NAT Snippet (Linux Gateway – iptables):**
+
+```bash
+sudo sysctl -w net.ipv4.ip_forward=1
+
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables -A FORWARD -i eth1 -o eth0 -j ACCEPT
+sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j ACCEPT
+```
+
+**NAT Snippet (Windows Server – PowerShell):**
+
+```powershell
+New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
+```
 
 ---
 
