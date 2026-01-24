@@ -239,6 +239,17 @@ It exists on **whatever device is acting as the Internet gateway** for the netwo
 * Configure DNS services so users can access websites by name (example: **google.com**).
 * Resolve issues where websites do not open by domain name, but work by IP address.
 
+***DNS (Domain Name System)*** exists on the **network service/server** that translates **domain names** (like `google.com`) into **IP addresses** (like `142.250.x.x`) so devices can access websites and services correctly.
+
+1. **ISP DNS Servers** *(public Internet DNS provided by your Internet provider)*
+2. **Public DNS Services** *(example: Google DNS, Cloudflare DNS)*
+3. **Router** *(small networks often forward DNS requests)*
+4. **Windows Server DNS** *(enterprise networks, often with Active Directory)*
+5. **Linux DNS Server** *(BIND, dnsmasq, Unbound, etc.)*
+6. **Cloud DNS Services** *(DNS managed in cloud environments)*
+
+**Simply: DNS (Domain Name System) exists on a DNS server/service that resolves domain names into IP addresses to ensure users can access websites and network services by name.**
+
 ---
 
 ### Step 6: Improve Internal LAN Connectivity and Performance
