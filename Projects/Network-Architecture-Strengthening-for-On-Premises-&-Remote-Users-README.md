@@ -270,12 +270,6 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 
 ---
 
-Yes, you can add that in the **Project Conclusion**, and it will look good.
-
-However, to keep it professional, I recommend adding it as a **summary checklist** like this:
-
----
-
 ## Project Conclusion
 
 This project successfully strengthened the network architecture for on-premises and remote users by implementing routing, firewall protection, NAT, DHCP automation, DNS resolution, LAN switching, and VPN remote access. The improved design ensures secure connectivity, efficient network operations, and reliable access to internal resources for both office-based and remote users.
