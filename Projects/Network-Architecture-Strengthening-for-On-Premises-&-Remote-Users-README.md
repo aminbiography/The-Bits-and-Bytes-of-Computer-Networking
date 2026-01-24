@@ -22,22 +22,24 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-Below is the **normal network flow (User → Server/Internet)** with proper alignment:
+## Server-to-User Network Flow 
 
-```
-[User Devices / PCs / Laptops]
+```text
+Internet / Servers (Public Network)
             |
-          SWITCH
-            |
-   DHCP + DNS (Network Services)
+           NAT
             |
       ROUTER / FIREWALL
      (Gateway + Security)
             |
-           NAT
+   DHCP + DNS (Network Services)
             |
-      Internet / Servers
+          SWITCH
+            |
+[User Devices / PCs / Laptops]
 ```
+
+---
 
 ### Remote Users (Secure Access Path)
 
