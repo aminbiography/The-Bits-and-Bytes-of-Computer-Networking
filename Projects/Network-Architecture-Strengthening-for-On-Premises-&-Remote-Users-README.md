@@ -72,7 +72,7 @@ Cloud Servers (Public Network)
 
 ---
 
-## Cellular User-to-Office Network Flow (4G/5G: Private + Public)
+## Cellular User-to-Office Network Flow (4G/5G: Public + Private)
 
 ```text
 [Internal Hosts] (Servers, PCs)
