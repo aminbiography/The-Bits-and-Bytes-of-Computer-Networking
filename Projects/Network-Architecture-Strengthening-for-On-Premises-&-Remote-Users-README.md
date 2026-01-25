@@ -301,22 +301,44 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 
 ---
 
-### Step 7: Enable Secure Remote Access for Remote Users
+### Step 7: Enable Secure Remote Access for Authorized Remote Users
 
 **Device/Service:** **VPN (Virtual Private Network)**
 
-* Configure VPN access for remote users to connect to the office network securely.
-* Encrypt traffic to protect sensitive data and internal resources from exposure.
+* Deploy a VPN solution to allow authorized remote users to securely access internal office resources over the Internet.
+* Encrypt all remote-access traffic to protect data confidentiality and prevent interception on public networks (Wi-Fi, ISP, or cellular).
+* Enforce access control by allowing only authenticated users and approved devices to connect to the private network.
+* Route remote user traffic into the Office LAN securely through the VPN gateway (router/firewall/server).
 
-**VPN:** A **VPN** exists on a VPN gateway (router/firewall/server) that creates an encrypted tunnel over the Internet, allowing authorized remote users to securely access internal network resources.
+**VPN Snippet (WireGuard – Linux VPN Gateway Example):**
+
+```bash
+sudo apt update
+sudo apt install wireguard -y
+```
+
+**Example WireGuard Server Config (`/etc/wireguard/wg0.conf`):**
+
+```ini
+[Interface]
+Address = 10.10.10.1/24
+ListenPort = 51820
+PrivateKey = <SERVER_PRIVATE_KEY>
+
+[Peer]
+PublicKey = <CLIENT_PUBLIC_KEY>
+AllowedIPs = 10.10.10.2/32
+```
+
+**VPN:** A **VPN (Virtual Private Network)** exists on a VPN gateway (router/firewall/server) and creates an encrypted tunnel across the Internet, allowing authorized remote users to access internal resources as if they were inside the office network.
 
 **VPN commonly exists on:**
 
-1. Firewall appliance
-2. Router
-3. Dedicated VPN server (Windows/Linux)
-4. Cloud VPN gateway
-5. Client devices (VPN client software)
+1. Firewall appliance (enterprise VPN gateway)
+2. Router with VPN support
+3. Dedicated VPN server (Linux/Windows)
+4. Cloud VPN gateway services
+5. Client devices (VPN client software for users)
 
 ---
 
