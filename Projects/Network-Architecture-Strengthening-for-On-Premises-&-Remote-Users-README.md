@@ -72,6 +72,54 @@ Cloud Servers (Public Network)
 
 ---
 
+## Cellular Networking Flow (Private → Public)
+
+```text
+[Internal Hosts] (Servers, PCs)
+            |
+          SWITCH
+            |
+     Office LAN (Private Network)
+            |
+   ROUTER / FIREWALL (Enterprise Gateway)
+            |
+      VPN Gateway (Optional)
+            |
+     Internet (Public Network)
+            |
+   Mobile Core Network (4G/5G Core)
+(SGW, PGW, UPF, Authentication, NAT/CGNAT)
+            |
+   Mobile Radio Access Network (RAN)
+(BTS / NodeB / eNodeB / gNodeB)
+            |
+Cellular User Devices (Smartphone / Laptop with SIM)
+```
+
+---
+
+## Secure Remote Access via Cellular VPN (Office → Remote User)
+
+```text
+Internal Resources (Servers, Databases, Internal Apps)
+            |
+     Office LAN (Private Network)
+            |
+   ROUTER / FIREWALL (VPN Gateway)
+            |
+     VPN Tunnel (IPsec / SSL)
+            |
+      Internet (Public Network)
+            |
+     Mobile Core Network
+            |
+   Mobile Base Station (eNodeB / gNodeB)
+            |
+Cellular User Device (4G/5G)
+```
+
+---
+
 ## Cloud Server-to-User Devices Connection Flow (Real Example: Public + Private)
 
 ```text
