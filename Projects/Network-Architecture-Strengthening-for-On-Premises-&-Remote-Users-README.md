@@ -72,7 +72,7 @@ Cloud Servers (Public Network)
 
 ---
 
-## Cellular Networking Flow (Private → Public)
+## Cellular User-to-Office Network Flow (4G/5G: Private + Public)
 
 ```text
 [Internal Hosts] (Servers, PCs)
@@ -98,7 +98,7 @@ Cellular User Devices (Smartphone / Laptop with SIM)
 
 ---
 
-## Secure Remote Access via Cellular VPN (Office → Remote User)
+## Cellular VPN Remote Access Flow (4G/5G: Public + Private)
 
 ```text
 Internal Resources (Servers, Databases, Internal Apps)
