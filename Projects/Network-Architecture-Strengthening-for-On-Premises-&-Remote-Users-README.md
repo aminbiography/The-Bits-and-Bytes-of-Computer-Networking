@@ -120,6 +120,26 @@ Cellular User Device (4G/5G)
 
 ---
 
+## WLAN (Wireless LAN) Network Flow (Private + Public)
+
+```text
+Internet (Public Network)
+        |
+   ROUTER / FIREWALL
+ (WAN Gateway + NAT + Security)
+        |
+Office LAN (Private Network)
+        |
+     SWITCH (LAN)
+        |
+ Wireless Access Point (Wi-Fi AP)
+        |
+Wireless Devices (Private Network Clients)
+(Laptops / Smartphones / Tablets / IoT)
+```
+
+---
+
 ## Cloud Server-to-User Devices Connection Flow (Real Example: Public + Private)
 
 ```text
