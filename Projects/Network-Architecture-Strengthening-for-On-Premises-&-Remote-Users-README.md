@@ -140,6 +140,33 @@ Wireless Devices (Private Network Clients)
 
 ---
 
+## Satellite Internet Network Flow (Public + Private)
+```text
+Cloud Servers / Websites (Public Network)
+            |
+      Internet Backbone (Public)
+            |
+     Satellite ISP Gateway / NOC
+            |
+      Satellite Uplink (Earth Station)
+            |
+     Satellite (LEO/MEO/GEO Orbit)
+            |
+   Satellite Downlink (User Location)
+            |
+Satellite Dish + Modem (VSAT Terminal)
+            |
+   ROUTER / FIREWALL (NAT + Security)
+            |
+ Office LAN (Private Network)
+            |
+     SWITCH / Wi-Fi AP
+            |
+   User Devices (Private Clients)
+```
+
+---
+
 ## Cloud Server-to-User Devices Connection Flow (Real Example: Public + Private)
 
 ```text
