@@ -24,7 +24,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ## Main Physical Devices (Hardware)
 
-![Main Physical Devices Endpoints](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-04-Network-Architecture-Strengthening-for-On-Premises-%26-Remote-Users-Main-Physical-Endpoints.png)
+![Main Physical Devices Hardware](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-04-Network-Architecture-Strengthening-for-On-Premises-%26-Remote-Users-Main-Physical-Endpoints.png)
 
 * **Cloud Servers / Websites** *(remote servers in data centers)*
 * **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
@@ -46,10 +46,10 @@ Internet / Public Servers (Public Network)
             |
      Office LAN (Private Network)
             |
-          SWITCH
-        /       \
-[User Devices]  DHCP + DNS
-(PCs/Laptops)  (Private Network Services)
+         SWITCH
+        /         \
+[User Devices]   Network Services
+(PCs/Laptops)   (DHCP + DNS)
 ```
 
 ---
@@ -140,7 +140,7 @@ Wireless Devices (Private Network Clients)
 
 ---
 
-## Satellite Internet Network Flow (Public + Private)
+## Satellite WAN Connectivity Flow (Public + Private)
 ```text
 Cloud Servers / Websites (Public Network)
             |
