@@ -26,7 +26,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ![Main Physical Devices Hardware](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-04-Network-Architecture-Strengthening-for-On-Premises-%26-Remote-Users-Main-Physical-Endpoints.png)
 
-* **Cloud Servers / Websites** *(remote servers in data centers)*
+* **Cloud Servers / Applications** *(remote servers in data centers)*
 * **Network Cable** *(Ethernet Cat5e/Cat6 or Fiber Optical Cable)*
 * **ISP Connection Box** *(Modem / ONU / ONT)*
 * **Router** *(Gateway device)* + **Switch** *(LAN Switch — optional / for expanding LAN ports)*
@@ -238,7 +238,7 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 New-NetFirewallRule -DisplayName "Allow SSH" -Direction Inbound -Protocol TCP -LocalPort 22 -Action Allow
 ```
 
-**Firewall:** A **Firewall (Network Firewall)** exists on the network security device positioned between the **private network (LAN)** and the **public Internet (WAN)** to inspect, filter, and control inbound and outbound traffic.
+A **Firewall (Network Firewall)** exists on the network security device positioned between the **private network (LAN)** and the **public Internet (WAN)** to inspect, filter, and control inbound and outbound traffic.
 
 **Firewall commonly exists on:**
 
@@ -273,7 +273,7 @@ sudo iptables -A FORWARD -i eth0 -o eth1 -m state --state RELATED,ESTABLISHED -j
 New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 ```
 
-**NAT:** **NAT (Network Address Translation)** exists on the network device that sits between the **private network (LAN)** and the **public Internet (WAN)**.
+**NAT (Network Address Translation)** exists on the network device that sits between the **private network (LAN)** and the **public Internet (WAN)**.
 
 **NAT commonly exists on:**
 
@@ -297,7 +297,7 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
   * DNS Server
 * Reduce manual configuration errors and improve efficiency for new device connections.
 
-**DHCP:** **DHCP** exists on the network service/device that automatically assigns IP configuration to client devices inside the LAN.
+**DHCP** exists on the network service/device that automatically assigns IP configuration to client devices inside the LAN.
 
 **DHCP commonly exists on:**
 
@@ -317,7 +317,7 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 * Configure DNS services so users can access websites by name (example: **google.com**).
 * Resolve issues where websites do not open by domain name, but work by IP address.
 
-**DNS:** **DNS (Domain Name System)** exists on the network service/server that translates domain names into IP addresses so devices can access websites and services correctly.
+**DNS (Domain Name System)** exists on the network service/server that translates domain names into IP addresses so devices can access websites and services correctly.
 
 **DNS commonly exists on:**
 
@@ -377,7 +377,7 @@ PublicKey = <CLIENT_PUBLIC_KEY>
 AllowedIPs = 10.10.10.2/32
 ```
 
-**VPN:** A **VPN (Virtual Private Network)** exists on a VPN gateway (router/firewall/server) and creates an encrypted tunnel across the Internet, allowing authorized remote users to access internal resources as if they were inside the office network.
+A **VPN (Virtual Private Network)** exists on a VPN gateway (router/firewall/server) and creates an encrypted tunnel across the Internet, allowing authorized remote users to access internal resources as if they were inside the office network.
 
 **VPN commonly exists on:**
 
