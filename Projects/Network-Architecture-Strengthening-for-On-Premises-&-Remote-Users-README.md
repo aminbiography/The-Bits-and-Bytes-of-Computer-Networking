@@ -142,7 +142,7 @@ Wireless Devices (Private Network Clients)
 
 ## Satellite WAN Connectivity Flow (Public + Private)
 ```text
-Cloud Servers / Websites (Public Network)
+Cloud Servers / Applications (Public Network)
             |
       Internet Backbone (Public)
             |
@@ -170,7 +170,7 @@ Satellite Dish + Modem (VSAT Terminal)
 ## Cloud Server-to-User Devices Connection Flow (Real Example: Public + Private)
 
 ```text
-[Cloud Servers / Websites] (Public Network)
+[Cloud Servers / Applications] (Public Network)
      |
 Internet (Public Network)
      |
