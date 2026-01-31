@@ -1,4 +1,4 @@
-# **Project Title:** 
+## **Project Title** 
 **Wireless Channels: Frequency Allocation, Interference and Frame Transmission**
 
 ---
