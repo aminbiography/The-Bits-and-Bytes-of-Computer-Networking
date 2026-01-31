@@ -22,7 +22,7 @@ To strengthen the network architecture for both on-premises and remote users by 
 
 ---
 
-## Main Physical Devices (Hardware)
+## Main Physical Devices
 
 ![Main Physical Devices Hardware](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-04-Network-Architecture-Strengthening-for-On-Premises-%26-Remote-Users-Main-Physical-Endpoints.png)
 
