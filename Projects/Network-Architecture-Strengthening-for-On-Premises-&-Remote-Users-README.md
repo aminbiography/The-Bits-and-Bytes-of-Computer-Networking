@@ -200,7 +200,7 @@ Internet (Public Network)
 * Configure the router to connect the internal office LAN to the Internet.
 * Ensure the router functions as the default gateway for internal devices.
 
-**Router:** A **Router** is the **main gateway device** that connects the **local network (LAN)** to the **Internet (WAN)** and routes traffic between them.
+A **Router** is the **main gateway device** that connects the **local network (LAN)** to the **Internet (WAN)** and routes traffic between them.
 
 **Inside a typical router, these built-in functions may exist:**
 
