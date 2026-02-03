@@ -6,7 +6,7 @@
 
 An organization operates an on-premises office network that supports daily business operations such as email, web access, file sharing, and internal applications. As the company grows, more users and devices are added, and remote employees and other authorized remote users also require secure access to internal resources. The organization needs a strengthened network architecture that improves connectivity, security, scalability, and remote access protection.
 
----  
+---    
 
 ## Project Objective
 
