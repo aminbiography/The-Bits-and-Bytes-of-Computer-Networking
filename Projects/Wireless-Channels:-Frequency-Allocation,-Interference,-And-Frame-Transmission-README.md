@@ -93,7 +93,7 @@ This process ensures reliable communication across wireless and wired networks.
 | Unstable connections         | Congested spectrum     | Prefer 5 GHz where possible        |
 
 ---
-
+  
 ## **Project Conclusion**
 
 Wireless networking performance depends heavily on effective **channel allocation**, **interference management**, and **frame handling**. In the 2.4 GHz band, selecting non-overlapping channels (1, 6, 11) is critical to minimizing collisions. Understanding 802.11 frame structure and encapsulation explains how reliable data transmission is achieved over a shared wireless medium. Proper planning and configuration significantly improve Wi-Fi stability and throughput.
