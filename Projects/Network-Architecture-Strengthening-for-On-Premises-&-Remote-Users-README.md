@@ -337,7 +337,7 @@ New-NetNat -Name "OfficeNAT" -InternalIPInterfaceAddressPrefix "192.168.10.0/24"
 * Install and configure switches to connect multiple computers and network devices.
 * Ensure fast and reliable communication inside the office network.
 
-**Switch:** A **Switch** exists inside the LAN to connect multiple devices and enable fast internal communication.
+A **Switch** exists inside the LAN to connect multiple devices and enable fast internal communication.
 
 **Switch commonly exists in:**
 
