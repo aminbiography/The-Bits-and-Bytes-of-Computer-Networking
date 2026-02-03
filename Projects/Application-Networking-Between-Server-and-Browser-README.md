@@ -6,12 +6,12 @@
 
 ---
 
-## End-to-end web request (Computer 1 → Computer 2)
+## End-to-end web request (Computer 1 → Computer 2)  
 
 A full network communication requires every layer (Physical → Data Link → Network → Transport → Application) to work together to deliver a TCP segment from a client to a server.
 
 **Example:** Computer 1 (10.1.1.100) opens a browser to reach Computer 2 (172.16.1.100:80) across Router A and Router B.
-
+  
 ---
 
 ## Phase 1: Topology and Local Decision (Computer 1)
