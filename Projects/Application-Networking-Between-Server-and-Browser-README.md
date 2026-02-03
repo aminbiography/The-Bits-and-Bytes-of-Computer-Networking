@@ -1,5 +1,5 @@
 # Application Networking Between Server and Browser
-
+  
 ---
 
 ### This presentation is based on **"All the Layers Working in Unison"** from **"The Bits and Bytes of Computer Networking"**
