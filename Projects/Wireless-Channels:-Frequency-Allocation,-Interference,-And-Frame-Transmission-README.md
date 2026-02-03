@@ -8,7 +8,7 @@
 The objective of this project is to explain how **wireless frequency allocation**, **channel overlap**, and **frame transmission mechanisms** work together to affect Wi-Fi performance. The project also demonstrates how **encapsulation/de-encapsulation** and **802.11 MAC frame structure** support reliable wireless communication in shared radio environments.
 
 ---
-
+ 
 ## **Project Scenario**
 
 A small office network experiences degraded Wi-Fi performance due to congestion and interference from nearby wireless networks operating in the same 2.4 GHz frequency band. Multiple access points and devices compete for airtime, resulting in collisions and retransmissions. This project studies wireless channel behavior, frame transmission, and encapsulation concepts to understand and mitigate these issues.
