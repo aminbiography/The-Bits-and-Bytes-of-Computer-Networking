@@ -1,4 +1,10 @@
-# Troubleshooting & Future of Networking
+# Network Reliability, Troubleshooting, and Future Architectures
+
+---
+
+## Troubleshooting & Future of Networking
+
+---
 
 - **Networking Complexity**
   - Modern networks involve many layers, protocols, and devices → failures are normal.
