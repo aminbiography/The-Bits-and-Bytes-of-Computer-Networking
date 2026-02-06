@@ -2,7 +2,7 @@ Live URL:  https://aminbiography.github.io/The-Bits-and-Bytes-of-Computer-Networ
 
 --- 
 
-![The Bits and Bytes of Computer Networking — Google Coursera Certificate](https://www.coursera.org/account/accomplishments/certificate/3YFPNDKRUAO7)
+![The Bits and Bytes of Computer Networking — Google Coursera Certificate](https://coursera.org/share/06adf502a51b9e76e8540a5ce58317fa)
 
 ---
  
