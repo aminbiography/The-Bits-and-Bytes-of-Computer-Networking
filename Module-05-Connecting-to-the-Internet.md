@@ -751,3 +751,4 @@ Fiber uses light, supports very high speed and long distance.
 - **Sequence Control:** Keeps frames in correct order.
 - **Addresses:** Include source, destination, transmitter, and receiver (often the AP).
 
+---
