@@ -1,4 +1,10 @@
-# Connecting to the Internet
+# ISP Connectivity and Edge Access
+
+---
+
+## Connecting to the Internet
+
+---
 
 ## Internet Device Diversity
 - **Internet Device Diversity:** The Internet connects a huge variety of devices, not just computers.
