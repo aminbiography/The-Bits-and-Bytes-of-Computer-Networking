@@ -10,12 +10,12 @@
   - Modern networks involve many layers, protocols, and devices → failures are normal.
 
 - **Error Detection**
-  - **Definition:** Mechanism to identify that a problem occurred.
+  - A mechanism used to identify that a problem has occurred.
   - **Example:** CRC (Cyclic Redundancy Check) verifies data integrity.
 
 - **Error Recovery**
-  - **Definition:** Mechanism to correct or compensate for detected errors.
-  - **Example:** Transport layer resends data if corruption/loss is detected.
+  - A mechanism used to correct or compensate for detected errors.
+  - **Example:** The transport layer resends data if corruption or loss is detected.
 
 - **CRC Behavior**
   - If CRC ≠ payload data → data is discarded.
