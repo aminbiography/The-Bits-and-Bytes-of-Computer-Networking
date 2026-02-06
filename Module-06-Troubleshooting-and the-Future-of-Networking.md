@@ -1,6 +1,4 @@
-# Core Networking Troubleshooting Concepts
-
-## Troubleshooting & Future of Networking
+# Troubleshooting & Future of Networking
 
 - **Networking Complexity**
   - Modern networks involve many layers, protocols, and devices → failures are normal.
