@@ -100,7 +100,7 @@ Example:
 
 ---
 
-## Step A3 — Leading Zero Suppression
+## Step A3 - Leading Zero Suppression
 
 ```
 2001:db8:0:0:0:ff00:12:3456
@@ -112,7 +112,7 @@ Example:
 
 ---
 
-## Step A4 — IPv6 Compression (::)
+## Step A4 - IPv6 Compression (::)
 
 ```
 2001:db8::ff00:12:3456
@@ -124,7 +124,7 @@ Example:
 
 ---
 
-## Step A5 — Loopback Address
+## Step A5 - Loopback Address
 
 ```
 ::1
