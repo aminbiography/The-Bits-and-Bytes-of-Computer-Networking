@@ -1,6 +1,6 @@
 # **Project Title**
 
-**Cross-Platform CLI-Based Network Analysis and Troubleshooting**
+### **Cross-Platform CLI-Based Network Analysis and Troubleshooting**
 
 ---
 
@@ -60,7 +60,7 @@ Confirms external network reachability and latency.
 
 ---
 
-## **Step W2 — Route Path Analysis**
+## **Step W2 - Route Path Analysis**
 
 ### Command
 
@@ -82,7 +82,7 @@ Displays routing path to the destination host.
 
 ---
 
-## **Step W3 — PowerShell Network Test**
+## **Step W3 - PowerShell Network Test**
 
 ### Command
 
@@ -103,7 +103,7 @@ Validates host reachability and network interface used.
 
 ---
 
-## **Step W4 — Interface Configuration**
+## **Step W4 - Interface Configuration**
 
 ### Command
 
@@ -117,7 +117,7 @@ Displays IP address, gateway, and DNS configuration.
 
 ---
 
-## **Step W5 — Active Connections**
+## **Step W5 - Active Connections**
 
 ### Command
 
@@ -131,7 +131,7 @@ Lists active connections and listening ports.
 
 ---
 
-## **Step W6 — Routing Table**
+## **Step W6 - Routing Table**
 
 ### Command
 
@@ -151,7 +151,7 @@ Displays routing entries and default gateways.
 
 ---
 
-## **Step L1 — Connectivity Test**
+## **Step L1 - Connectivity Test**
 
 ### Command
 
@@ -172,7 +172,7 @@ Indicates stable connectivity and low latency.
 
 ---
 
-## **Step L2 — Routing Path Analysis**
+## **Step L2 - Routing Path Analysis**
 
 ### Command
 
@@ -186,7 +186,7 @@ Shows hop-by-hop routing path to the destination.
 
 ---
 
-## **Step L3 — Port Reachability**
+## **Step L3 - Port Reachability**
 
 ### Command
 
@@ -206,7 +206,7 @@ Confirms TCP port 80 is reachable.
 
 ---
 
-## **Step L4 — DNS Resolution**
+## **Step L4 - DNS Resolution**
 
 ### Command
 
@@ -220,7 +220,7 @@ Verifies domain-to-IP resolution.
 
 ---
 
-## **Step L5 — MX Record Lookup**
+## **Step L5 - MX Record Lookup**
 
 ### Command
 
@@ -236,7 +236,7 @@ Displays mail exchanger records.
 
 ---
 
-## **Step L6 — Interface Information**
+## **Step L6 - Interface Information**
 
 ### Command
 
@@ -250,7 +250,7 @@ Displays IP addressing and interface states.
 
 ---
 
-## **Step L7 — Active Connections**
+## **Step L7 - Active Connections**
 
 ### Command
 
@@ -264,7 +264,7 @@ Shows listening and active sockets.
 
 ---
 
-## **Step L8 — Routing Table**
+## **Step L8 - Routing Table**
 
 ### Command
 
