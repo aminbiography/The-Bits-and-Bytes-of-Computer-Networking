@@ -1,51 +1,50 @@
-# **Project Title**
+# Project Title
 
-## **Cross-Platform CLI-Based Network Analysis and Troubleshooting**
+## Cross-Platform CLI-Based Network Analysis and Troubleshooting
 
 ---
 
-# **Project Objective**
+# Project Objective
 
 To demonstrate systematic network analysis and troubleshooting using command-line tools across Windows and Linux environments for:
 
-* Connectivity testing
-* Routing path analysis
-* Port reachability validation
-* DNS resolution verification
+- Connectivity testing
+- Routing path analysis
+- Port reachability validation
+- DNS resolution verification
 
 This project simulates real-world workflows used by network and SOC analysts to diagnose connectivity and service-related issues.
 
 ---
 
-# **Project Scenario**
+# Project Scenario
 
-A user experiences intermittent connectivity and service-access issues.
+A user experiences intermittent connectivity and service-access issues.  
 A network/SOC analyst performs structured analysis to verify:
 
-1. Internet connectivity
-2. Routing paths
-3. Service port availability
-4. DNS resolution
+1. Internet connectivity  
+2. Routing paths  
+3. Service port availability  
+4. DNS resolution  
 
 Command-line tools are used to isolate issues methodically.
 
 ---
 
-# **Project Description**
+# Project Description
 
 ---
 
-# **Windows PowerShell / Command Prompt Analysis**
+# Windows PowerShell / Command Prompt Analysis
 
 ---
 
-## **Step W1 - Connectivity Test (Ping)**
+## Step W1 - Connectivity Test (Ping)
 
 ### Command
-
 ```powershell
 ping 8.8.8.8
-```
+````
 
 ### Output
 
@@ -60,13 +59,11 @@ Confirms external network reachability and latency.
 
 ---
 
----
-
-# **Linux CLI / VS Code Bash Analysis**
+# Linux CLI / VS Code Bash Analysis
 
 ---
 
-## **Step L1 - Connectivity Test**
+## Step L1 - Connectivity Test
 
 ### Command
 
@@ -87,11 +84,11 @@ Indicates stable connectivity and low latency.
 
 ### Screenshot Evidence
 
-![Ping Test](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-01-Successful-Ping-Test-to-8.8.8.8-(Linux-Terminal).png)
+![Ping Test](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-01-Successful-Ping-Test-to-8.8.8.8-\(Linux-Terminal\).png)
 
 ---
 
-## **Step L2 - Routing Path Analysis**
+## Step L2 - Routing Path Analysis
 
 ### Command
 
@@ -109,7 +106,7 @@ Shows hop-by-hop routing path to the destination.
 
 ---
 
-## **Step L3 - Port Reachability**
+## Step L3 - Port Reachability
 
 ### Command
 
@@ -133,7 +130,7 @@ Confirms TCP port 80 is reachable.
 
 ---
 
-## **Step L4 - DNS Resolution**
+## Step L4 - DNS Resolution
 
 ### Command
 
@@ -147,13 +144,13 @@ Verifies domain-to-IP resolution.
 
 ---
 
-## **Step L5 - MX Record Lookup**
+## Step L5 - MX Record Lookup
 
 ### Command
 
 ```bash
-nslookup  
-set type=MX  
+nslookup
+set type=MX
 google.com
 ```
 
@@ -167,7 +164,7 @@ Displays mail exchanger records.
 
 ---
 
-## **Step L6 - Interface Information**
+## Step L6 - Interface Information
 
 ### Command
 
@@ -175,13 +172,11 @@ Displays mail exchanger records.
 ip a
 ```
 
-### Purpose
-
 Displays IP addressing and interface states.
 
 ---
 
-## **Step L7 - Active Connections**
+## Step L7 - Active Connections
 
 ### Command
 
@@ -189,13 +184,11 @@ Displays IP addressing and interface states.
 ss -tuln
 ```
 
-### Purpose
-
 Shows listening and active sockets.
 
 ---
 
-## **Step L8 - Routing Table**
+## Step L8 - Routing Table
 
 ### Command
 
@@ -203,13 +196,11 @@ Shows listening and active sockets.
 ip route
 ```
 
-### Purpose
-
 Displays routing paths and gateways.
 
 ---
 
-# **Project Conclusion**
+# Project Conclusion
 
 The analysis confirms:
 
@@ -223,25 +214,23 @@ This project demonstrates practical, cross-platform CLI-based network analysis a
 
 ---
 
-# **References**
+# References
 
 *These resources were used for conceptual understanding and lab preparation.*
 
-### Command Line Troubleshooting Tools Reference Guide
+Command Line Troubleshooting Tools Reference Guide
+[https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view](https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view)
 
-[https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing](https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing)
-
-### Testing Port Connectivity
-
-[https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link](https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link)
+Testing Port Connectivity
+[https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view](https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view)
 
 ---
 
-# **Project Credit**
+# Project Credit
 
 * **Executed and Presented By:** Mohammad Aminul Islam (SOC Analyst)
-* **Project Reference Source:** *The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)*
+* **Learning Reference:** The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)
 * **Implementation and Documentation:** Mohammad Aminul Islam
-* **Trademark Notice:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
+* **Trademark Notice:** Google and the Google logo are trademarks of Google LLC.
 
----
+```
