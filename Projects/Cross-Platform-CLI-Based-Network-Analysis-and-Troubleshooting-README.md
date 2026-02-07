@@ -31,6 +31,26 @@ Command-line tools are used to isolate issues methodically.
 
 ---
 
+# **References Resources**
+
+*These resources were used for conceptual understanding and lab preparation.*
+
+---
+
+### Command Line Troubleshooting Tools Reference Guide
+
+PDF:
+[https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing](https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing)
+
+---
+
+### Testing Port Connectivity
+
+PDF:
+[https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link](https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link)
+
+---
+
 # **Project Description**
 
 ---
@@ -292,12 +312,11 @@ This project demonstrates practical, cross-platform CLI-based network analysis a
 
 ---
 
-# **Project Credit**
+## Project Credit
 
-**Executed and Documented By**
-Mohammad Aminul Islam
-SOC Analyst
+* **Executed and Presented By:** Mohammad Aminul Islam *(SOC Analyst)*
+* **Project Reference Source:** *The Bits and Bytes of Computer Networking* — Google IT Support Professional Certificate Program *(Coursera)*
+* **Project Implementation and Documentation:** Mohammad Aminul Islam
+* **Copyright and Trademarks:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
 
 ---
-
-
