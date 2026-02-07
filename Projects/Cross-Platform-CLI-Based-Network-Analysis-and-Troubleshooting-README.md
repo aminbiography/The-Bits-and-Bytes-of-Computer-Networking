@@ -1,6 +1,6 @@
 # **Project Title**
 
-### **Cross-Platform CLI-Based Network Analysis and Troubleshooting**
+## **Cross-Platform CLI-Based Network Analysis and Troubleshooting**
 
 ---
 
@@ -31,26 +31,6 @@ Command-line tools are used to isolate issues methodically.
 
 ---
 
-# **References Resources**
-
-*These resources were used for conceptual understanding and lab preparation.*
-
----
-
-### Command Line Troubleshooting Tools Reference Guide
-
-PDF:
-[https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing](https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing)
-
----
-
-### Testing Port Connectivity
-
-PDF:
-[https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link](https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link)
-
----
-
 # **Project Description**
 
 ---
@@ -59,7 +39,7 @@ PDF:
 
 ---
 
-## **Step W1 — Connectivity Test (Ping)**
+## **Step W1 - Connectivity Test (Ping)**
 
 ### Command
 
@@ -70,7 +50,7 @@ ping 8.8.8.8
 ### Output
 
 ```powershell
-Reply from 8.8.8.8: bytes=32 time=3–5ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=3–5ms TTL=56  
 Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 ```
 
@@ -91,8 +71,8 @@ tracert google.com
 ### Output (IPv6 Example)
 
 ```powershell
-Tracing route to google.com
-Hop addresses across IPv6 network...
+Tracing route to google.com  
+Hop addresses across IPv6 network...  
 Trace complete.
 ```
 
@@ -113,7 +93,7 @@ Test-NetConnection google.com
 ### Output
 
 ```powershell
-PingSucceeded : True
+PingSucceeded : True  
 RTT : 731 ms
 ```
 
@@ -123,7 +103,7 @@ Validates host reachability and network interface used.
 
 ---
 
-## **Step W4 - Interface Configuration**
+## **Step W4 —-Interface Configuration**
 
 ### Command
 
@@ -182,7 +162,7 @@ ping 8.8.8.8
 ### Output
 
 ```bash
-19 packets transmitted, 19 received, 0% packet loss
+19 packets transmitted, 19 received, 0% packet loss  
 rtt avg ≈ 4 ms
 ```
 
@@ -206,7 +186,7 @@ Shows hop-by-hop routing path to the destination.
 
 ---
 
-## **Step L3 - Port Reachability**
+## **Step L3 — Port Reachability**
 
 ### Command
 
@@ -245,8 +225,8 @@ Verifies domain-to-IP resolution.
 ### Command
 
 ```bash
-nslookup
-set type=MX
+nslookup  
+set type=MX  
 google.com
 ```
 
@@ -309,6 +289,20 @@ The analysis confirms:
 * Valid mail routing configuration
 
 This project demonstrates practical, cross-platform CLI-based network analysis and troubleshooting applicable to real-world SOC and network operations.
+
+---
+
+# **References**
+
+*These resources were used for conceptual understanding and lab preparation.*
+
+### Command Line Troubleshooting Tools Reference Guide
+
+[https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing](https://drive.google.com/file/d/1jbGWD9ilDyBpv7S2Gb15Nw08Uswf6hox/view?usp=sharing)
+
+### Testing Port Connectivity
+
+[https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link](https://drive.google.com/file/d/1w4GgfP5VsXzMOjTOaWwONBS89vrSTNwt/view?usp=drive_link)
 
 ---
 
