@@ -408,7 +408,7 @@ This project successfully strengthened the network architecture for on-premises 
 ## Project Credit
 
 * **Executed and Presented By:** Mohammad Aminul Islam *(SOC Analyst)*
-* **Project Reference Source:** *The Bits and Bytes of Computer Networking* — Google IT Support Professional Certificate Program *(Coursera)*
+* **Project Reference:** *The Bits and Bytes of Computer Networking* — Google IT Support Professional Certificate Program *(Coursera)*
 * **Project Implementation and Documentation:** Mohammad Aminul Islam
 * **Copyright and Trademarks:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
 
