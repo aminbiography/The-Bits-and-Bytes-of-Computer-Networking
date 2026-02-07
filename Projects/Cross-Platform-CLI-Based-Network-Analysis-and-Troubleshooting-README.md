@@ -229,7 +229,7 @@ Testing Port Connectivity
 # Project Credit
 
 * **Executed and Presented By:** Mohammad Aminul Islam (SOC Analyst)
-* **Learning Reference:** The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)
+* **Project Reference:** The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)
 * **Implementation and Documentation:** Mohammad Aminul Islam
 * **Trademark Notice:** Google and the Google logo are trademarks of Google LLC.
 
