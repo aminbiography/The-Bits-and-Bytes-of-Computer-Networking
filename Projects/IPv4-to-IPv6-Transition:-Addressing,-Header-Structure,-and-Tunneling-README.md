@@ -78,7 +78,7 @@ IPv6 uses 128-bit addressing.
 
 ### Screenshot Evidence
 
-![IPv6 Space](ACcounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1)
+![IPv6 Space](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-05-Total-IPv6-Address-Space-(2¹²⁸).png)
 
 ### Interpretation
 
