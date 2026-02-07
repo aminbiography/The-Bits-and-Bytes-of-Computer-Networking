@@ -103,7 +103,7 @@ Validates host reachability and network interface used.
 
 ---
 
-## **Step W4 —-Interface Configuration**
+## **Step W4 - Interface Configuration**
 
 ### Command
 
@@ -306,11 +306,11 @@ This project demonstrates practical, cross-platform CLI-based network analysis a
 
 ---
 
-## Project Credit
+# **Project Credit**
 
-* **Executed and Presented By:** Mohammad Aminul Islam *(SOC Analyst)*
-* **Project Reference Source:** *The Bits and Bytes of Computer Networking* — Google IT Support Professional Certificate Program *(Coursera)*
-* **Project Implementation and Documentation:** Mohammad Aminul Islam
-* **Copyright and Trademarks:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
+* **Executed and Presented By:** Mohammad Aminul Islam (SOC Analyst)
+* **Project Reference Source:** *The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)*
+* **Implementation and Documentation:** Mohammad Aminul Islam
+* **Trademark Notice:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
 
 ---
