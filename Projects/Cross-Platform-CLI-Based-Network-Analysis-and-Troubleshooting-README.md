@@ -39,7 +39,7 @@ Command-line tools are used to isolate issues methodically.
 
 ---
 
-## **Step W1 — Connectivity Test (Ping)**
+## **Step W1 - Connectivity Test (Ping)**
 
 ### Command
 
@@ -66,7 +66,7 @@ Confirms external network reachability and latency.
 
 ---
 
-## **Step L1 — Connectivity Test**
+## **Step L1 - Connectivity Test**
 
 ### Command
 
@@ -91,7 +91,7 @@ Indicates stable connectivity and low latency.
 
 ---
 
-## **Step L2 — Routing Path Analysis**
+## **Step L2 - Routing Path Analysis**
 
 ### Command
 
@@ -109,7 +109,7 @@ Shows hop-by-hop routing path to the destination.
 
 ---
 
-## **Step L3 — Port Reachability**
+## **Step L3 - Port Reachability**
 
 ### Command
 
@@ -133,7 +133,7 @@ Confirms TCP port 80 is reachable.
 
 ---
 
-## **Step L4 — DNS Resolution**
+## **Step L4 - DNS Resolution**
 
 ### Command
 
@@ -147,7 +147,7 @@ Verifies domain-to-IP resolution.
 
 ---
 
-## **Step L5 — MX Record Lookup**
+## **Step L5 - MX Record Lookup**
 
 ### Command
 
@@ -167,7 +167,7 @@ Displays mail exchanger records.
 
 ---
 
-## **Step L6 — Interface Information**
+## **Step L6 - Interface Information**
 
 ### Command
 
@@ -181,7 +181,7 @@ Displays IP addressing and interface states.
 
 ---
 
-## **Step L7 — Active Connections**
+## **Step L7 - Active Connections**
 
 ### Command
 
@@ -195,7 +195,7 @@ Shows listening and active sockets.
 
 ---
 
-## **Step L8 — Routing Table**
+## **Step L8 - Routing Table**
 
 ### Command
 
