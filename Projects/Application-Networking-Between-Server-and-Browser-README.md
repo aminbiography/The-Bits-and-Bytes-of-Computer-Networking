@@ -249,7 +249,7 @@ If the web page still does not load, the user can focus troubleshooting on:
 ## **Project Credit**
 
 - **Executed and Presented By:** Mohammad Aminul Islam _(SOC Analyst)_
-- **Project Reference Source:** _The Bits and Bytes of Computer Networking_ — Google IT Support Professional Certificate Program _(Coursera)_
+- **Project Reference:** _The Bits and Bytes of Computer Networking_ — Google IT Support Professional Certificate Program _(Coursera)_
 - **Project Implementation and Documentation:** Mohammad Aminul Islam
 - **Copyright and Trademarks:** © 2022 Google LLC. Google and the Google logo are trademarks of Google LLC. All other product and company names may be trademarks of their respective owners.
 
