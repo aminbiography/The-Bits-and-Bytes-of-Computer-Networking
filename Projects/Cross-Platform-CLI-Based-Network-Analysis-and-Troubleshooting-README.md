@@ -39,7 +39,7 @@ Command-line tools are used to isolate issues methodically.
 
 ---
 
-## **Step W1 - Connectivity Test (Ping)**
+## **Step W1 — Connectivity Test (Ping)**
 
 ### Command
 
@@ -60,98 +60,13 @@ Confirms external network reachability and latency.
 
 ---
 
-## **Step W2 - Route Path Analysis**
-
-### Command
-
-```powershell
-tracert google.com
-```
-
-### Output (IPv6 Example)
-
-```powershell
-Tracing route to google.com  
-Hop addresses across IPv6 network...  
-Trace complete.
-```
-
-### Interpretation
-
-Displays routing path to the destination host.
-
----
-
-## **Step W3 - PowerShell Network Test**
-
-### Command
-
-```powershell
-Test-NetConnection google.com
-```
-
-### Output
-
-```powershell
-PingSucceeded : True  
-RTT : 731 ms
-```
-
-### Interpretation
-
-Validates host reachability and network interface used.
-
----
-
-## **Step W4 - Interface Configuration**
-
-### Command
-
-```powershell
-ipconfig /all
-```
-
-### Purpose
-
-Displays IP address, gateway, and DNS configuration.
-
----
-
-## **Step W5 - Active Connections**
-
-### Command
-
-```powershell
-netstat -an
-```
-
-### Purpose
-
-Lists active connections and listening ports.
-
----
-
-## **Step W6 - Routing Table**
-
-### Command
-
-```powershell
-route print
-```
-
-### Purpose
-
-Displays routing entries and default gateways.
-
----
-
 ---
 
 # **Linux CLI / VS Code Bash Analysis**
 
 ---
 
-## **Step L1 - Connectivity Test**
+## **Step L1 — Connectivity Test**
 
 ### Command
 
@@ -170,9 +85,13 @@ rtt avg ≈ 4 ms
 
 Indicates stable connectivity and low latency.
 
+### Screenshot Evidence
+
+![Ping Test](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-01-Successful-Ping-Test-to-8.8.8.8-(Linux-Terminal).png)
+
 ---
 
-## **Step L2 - Routing Path Analysis**
+## **Step L2 — Routing Path Analysis**
 
 ### Command
 
@@ -184,9 +103,13 @@ traceroute google.com
 
 Shows hop-by-hop routing path to the destination.
 
+### Screenshot Evidence
+
+![Traceroute](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-02-Traceroute-Command-Output-Showing-Network-Hops-to-google.com.png)
+
 ---
 
-## **Step L3 - Port Reachability**
+## **Step L3 — Port Reachability**
 
 ### Command
 
@@ -204,9 +127,13 @@ Connection to google.com 80 port succeeded!
 
 Confirms TCP port 80 is reachable.
 
+### Screenshot Evidence
+
+![Netcat Port Test](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-03-netcat-successful-port-80-connection.png)
+
 ---
 
-## **Step L4 - DNS Resolution**
+## **Step L4 — DNS Resolution**
 
 ### Command
 
@@ -220,7 +147,7 @@ Verifies domain-to-IP resolution.
 
 ---
 
-## **Step L5 - MX Record Lookup**
+## **Step L5 — MX Record Lookup**
 
 ### Command
 
@@ -234,9 +161,13 @@ google.com
 
 Displays mail exchanger records.
 
+### Screenshot Evidence
+
+![MX Lookup](https://github.com/aminbiography/The-Bits-and-Bytes-of-Computer-Networking/blob/main/Graph-Bar-Chart-Images/M-06-04-Nslookup-MX-Record-Results-for-google.com-in-Interactive-Mode.png)
+
 ---
 
-## **Step L6 - Interface Information**
+## **Step L6 — Interface Information**
 
 ### Command
 
@@ -250,7 +181,7 @@ Displays IP addressing and interface states.
 
 ---
 
-## **Step L7 - Active Connections**
+## **Step L7 — Active Connections**
 
 ### Command
 
@@ -264,7 +195,7 @@ Shows listening and active sockets.
 
 ---
 
-## **Step L8 - Routing Table**
+## **Step L8 — Routing Table**
 
 ### Command
 
