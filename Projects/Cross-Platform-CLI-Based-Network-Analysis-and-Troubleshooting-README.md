@@ -186,7 +186,7 @@ Shows hop-by-hop routing path to the destination.
 
 ---
 
-## **Step L3 — Port Reachability**
+## **Step L3 - Port Reachability**
 
 ### Command
 
