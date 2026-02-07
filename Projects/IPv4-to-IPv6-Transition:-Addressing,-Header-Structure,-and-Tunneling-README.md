@@ -14,7 +14,7 @@ To evaluate IPv4-to-IPv6 transition concepts by analyzing:
 * IPv4-mapped IPv6 addresses
 * IPv6-over-IPv4 tunneling mechanisms
 
-This project demonstrates conceptual and practical understanding of IPv6 adoption in modern networks.
+This project demonstrates conceptual and technical understanding of IPv6 adoption in modern networks.
 
 ---
 
@@ -40,7 +40,7 @@ This project explores these areas through structured technical analysis.
 
 ---
 
-## Step V4-1 — Limited Address Space
+## Step V4-1 - Limited Address Space
 
 IPv4 uses a **32-bit address space**.
 
@@ -54,12 +54,13 @@ IPv4 limitations are a primary driver for IPv6 adoption.
 
 ---
 
-## Step V4-2 — Constrained Design
+## Step V4-2 - Constrained Design
 
 IPv4 characteristics:
 
 * Variable header length
 * Broadcast-dependent operations
+* Fragmentation handled by routers
 * No native mandatory security design
 * Limited scalability
 
@@ -73,9 +74,9 @@ IPv4 remains functional but cannot independently support modern Internet growth.
 
 ---
 
-## Step A1 — IPv6 Address Space (128-bit)
+## Step A1 - IPv6 Address Space (128-bit)
 
-IPv6 uses 128-bit addressing.
+IPv6 uses **128-bit addressing**.
 
 ### Screenshot Evidence
 
@@ -87,7 +88,7 @@ Provides massive scalability for future networks.
 
 ---
 
-## Step A2 — Full IPv6 Notation
+## Step A2 - Full IPv6 Notation
 
 Example:
 
@@ -101,7 +102,7 @@ Example:
 
 ---
 
-## Step A3 — Leading Zero Suppression
+## Step A3 - Leading Zero Suppression
 
 ```
 2001:db8:0:0:0:ff00:12:3456
@@ -113,7 +114,7 @@ Example:
 
 ---
 
-## Step A4 — IPv6 Compression (::)
+## Step A4 - IPv6 Compression (::)
 
 ```
 2001:db8::ff00:12:3456
@@ -125,7 +126,7 @@ Example:
 
 ---
 
-## Step A5 — Loopback Address
+## Step A5 - Loopback Address
 
 ```
 ::1
@@ -141,7 +142,7 @@ Example:
 
 ---
 
-## Step H1 — Fixed 40-Byte Header
+## Step H1 - Fixed 40-Byte Header
 
 IPv6 uses a **fixed 40-byte base header**.
 
@@ -170,7 +171,7 @@ A fixed header size improves routing efficiency and processing speed.
 
 ---
 
-## Step T1 — IPv4-Mapped IPv6 Addresses
+## Step T1 - IPv4-Mapped IPv6 Addresses
 
 IPv4 addresses can be represented inside IPv6.
 
@@ -189,7 +190,7 @@ Supports interoperability between IPv4 and IPv6 systems.
 
 ---
 
-## Step T2 — IPv6 over IPv4 Tunneling
+## Step T2 - IPv6 over IPv4 Tunneling
 
 IPv6 packets can traverse IPv4 infrastructure using tunnels.
 
@@ -199,9 +200,9 @@ IPv6 packets can traverse IPv4 infrastructure using tunnels.
 
 ---
 
-## Step T3 — Encapsulation and De-encapsulation
+## Step T3 - Encapsulation and De-encapsulation
 
-IPv6 packets are encapsulated inside IPv4 packets, then restored.
+IPv6 packets are encapsulated inside IPv4 packets and restored at the destination.
 
 ### Screenshot Evidence
 
@@ -209,7 +210,7 @@ IPv6 packets are encapsulated inside IPv4 packets, then restored.
 
 ### Interpretation
 
-Enables gradual migration without replacing all infrastructure.
+Enables gradual IPv6 migration without full infrastructure replacement.
 
 ---
 
@@ -238,7 +239,7 @@ Understanding these mechanisms is essential for modern network and SOC roles.
 # Project Credit
 
 * **Executed and Presented By:** Mohammad Aminul Islam (SOC Analyst)
-* **Learning Reference:** The Bits and Bytes of Computer Networking - Google IT Support Professional Certificate (Coursera)
+* **Project Reference:** The Bits and Bytes of Computer Networking - Google IT Support Professional Certificate (Coursera)
 * **Implementation and Documentation:** Mohammad Aminul Islam
 * **Trademark Notice:** Google and the Google logo are trademarks of Google LLC.
 
