@@ -212,7 +212,7 @@ Understanding these is essential for modern network and SOC roles.
 
 These resources were used for conceptual understanding.
 
-* IETF RFC 8200 — Internet Protocol Version 6 (IPv6)
+* IETF RFC 8200 - Internet Protocol Version 6 (IPv6)
 * IPv6 Addressing Architecture (RFC 4291)
 * Networking course materials and lab notes
 
@@ -221,7 +221,7 @@ These resources were used for conceptual understanding.
 # Project Credit
 
 * **Executed and Presented By:** Mohammad Aminul Islam (SOC Analyst)
-* **Learning Reference:** The Bits and Bytes of Computer Networking — Google IT Support Professional Certificate (Coursera)
+* **Learning Reference:** The Bits and Bytes of Computer Networking - Google IT Support Professional Certificate (Coursera)
 * **Implementation and Documentation:** Mohammad Aminul Islam
 * **Trademark Notice:** Google and the Google logo are trademarks of Google LLC.
 
